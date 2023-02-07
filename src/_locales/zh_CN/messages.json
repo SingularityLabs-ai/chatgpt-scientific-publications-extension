@@ -1,8 +1,8 @@
 {
   "appName": {
-    "message": "ChatGPT for Google"
+    "message": "ArxivGPT"
   },
   "appDesc": {
-    "message": "在搜索引擎结果中同时显示ChatGPT的回答"
+    "message": "概括并提供任何 arxiv 文章的关键见解。"
   }
 }

@@ -1,10 +1,19 @@
-import { CssBaseline, GeistProvider, Radio, Select, Text, Toggle, useToasts } from '@geist-ui/core'
-import { capitalize } from 'lodash-es'
+import {
+  Button,
+  CssBaseline,
+  GeistProvider,
+  Radio,
+  Text,
+  Textarea,
+  Toggle,
+  useToasts,
+} from '@geist-ui/core'
 import { useCallback, useEffect, useMemo, useState } from 'preact/hooks'
 import '../base.css'
 import {
   getUserConfig,
   Language,
+  Prompt,
   Theme,
   TriggerMode,
   TRIGGER_MODE_TEXT,
@@ -17,12 +26,14 @@ import ProviderSelect from './ProviderSelect'
 function OptionsPage(props: { theme: Theme; onThemeChange: (theme: Theme) => void }) {
   const [triggerMode, setTriggerMode] = useState<TriggerMode>(TriggerMode.Always)
   const [language, setLanguage] = useState<Language>(Language.Auto)
+  const [prompt, setPrompt] = useState<string>(Prompt)
   const { setToast } = useToasts()
 
   useEffect(() => {
     getUserConfig().then((config) => {
       setTriggerMode(config.triggerMode)
       setLanguage(config.language)
+      setPrompt(config.prompt)
     })
   }, [])
 
@@ -44,6 +55,15 @@ function OptionsPage(props: { theme: Theme; onThemeChange: (theme: Theme) => voi
     [props, setToast],
   )
 
+  const onPromptChange = useCallback(
+    (prompt: string) => {
+      setPrompt(prompt)
+      updateUserConfig({ prompt })
+      setToast({ text: 'Prompt changes saved', type: 'success' })
+    },
+    [props, setToast],
+  )
+
   const onLanguageChange = useCallback(
     (language: Language) => {
       updateUserConfig({ language })
@@ -57,24 +77,18 @@ function OptionsPage(props: { theme: Theme; onThemeChange: (theme: Theme) => voi
       <nav className="flex flex-row justify-between items-center mt-5 px-2">
         <div className="flex flex-row items-center gap-2">
           <img src={logo} className="w-10 h-10 rounded-lg" />
-          <span className="font-semibold">ChatGPT for Google (v{getExtensionVersion()})</span>
+          <span className="font-semibold">ArixGPT(v{getExtensionVersion()})</span>
         </div>
         <div className="flex flex-row gap-3">
-          <a href="https://chatgpt-for-google.canny.io/changelog" target="_blank" rel="noreferrer">
-            Changelog
-          </a>
           <a
-            href="https://github.com/wong2/chat-gpt-google-extension/issues"
+            href="https://github.com/hunkimForks/chatgpt-arxiv-extension/issues"
             target="_blank"
             rel="noreferrer"
           >
             Feedback
           </a>
-          <a href="https://twitter.com/chatgpt4google" target="_blank" rel="noreferrer">
-            Twitter
-          </a>
           <a
-            href="https://github.com/wong2/chat-gpt-google-extension"
+            href="https://github.com/hunkimForks/chatgpt-arxiv-extension"
             target="_blank"
             rel="noreferrer"
           >
@@ -85,8 +99,23 @@ function OptionsPage(props: { theme: Theme; onThemeChange: (theme: Theme) => voi
       <main className="w-[500px] mx-auto mt-14">
         <Text h2>Options</Text>
         <Text h3 className="mt-5">
+          Prompt
+        </Text>
+        <Textarea
+          value={prompt}
+          style={{ width: '80ch', height: '10em' }}
+          onChange={(event) => setPrompt(event.target.value)}
+        >
+          {prompt}
+        </Textarea>
+        <Button onClick={() => onPromptChange(prompt)} className="mt-3">
+          Save Prompt
+        </Button>
+
+        <Text h3 className="mt-5">
           Trigger Mode
         </Text>
+
         <Radio.Group
           value={triggerMode}
           onChange={(val) => onTriggerModeChange(val as TriggerMode)}
@@ -112,24 +141,6 @@ function OptionsPage(props: { theme: Theme; onThemeChange: (theme: Theme) => voi
             )
           })}
         </Radio.Group>
-        <Text h3 className="mt-5 mb-0">
-          Language
-        </Text>
-        <Text className="my-1">
-          The language used in ChatGPT response. <span className="italic">Auto</span> is
-          recommended.
-        </Text>
-        <Select
-          value={language}
-          placeholder="Choose one"
-          onChange={(val) => onLanguageChange(val as Language)}
-        >
-          {Object.entries(Language).map(([k, v]) => (
-            <Select.Option key={k} value={v}>
-              {capitalize(v)}
-            </Select.Option>
-          ))}
-        </Select>
         <Text h3 className="mt-5 mb-0">
           AI Provider
         </Text>

@@ -1,6 +1,6 @@
 import { render } from 'preact'
 import '../base.css'
-import { getUserConfig, Language, Theme } from '../config'
+import { getUserConfig, Theme } from '../config'
 import { detectSystemColorScheme } from '../utils'
 import ChatGPTContainer from './ChatGPTContainer'
 import { config, SearchEngine } from './search-engine-configs'
@@ -47,14 +47,19 @@ const siteConfig = config[siteName]
 
 async function run() {
   const searchInput = getPossibleElementByQuerySelector<HTMLInputElement>(siteConfig.inputQuery)
-  if (searchInput && searchInput.value) {
-    console.debug('Mount ChatGPT on', siteName)
-    const userConfig = await getUserConfig()
-    const searchValueWithLanguageOption =
-      userConfig.language === Language.Auto
-        ? searchInput.value
-        : `${searchInput.value}(in ${userConfig.language})`
-    mount(searchValueWithLanguageOption, siteConfig)
+  console.debug('Try to Mount ChatGPT on', siteName)
+
+  if (siteConfig.bodyQuery) {
+    const bodyElement = getPossibleElementByQuerySelector(siteConfig.bodyQuery)
+    console.debug('bodyElement', bodyElement)
+
+    if (bodyElement && bodyElement.textContent) {
+      const bodyInnerText = bodyElement.textContent.trim().replace(/\s+/g, ' ').substring(0, 1500)
+      console.log('Body: ' + bodyInnerText)
+      const userConfig = await getUserConfig()
+
+      mount(userConfig.prompt + bodyInnerText, siteConfig)
+    }
   }
 }
 

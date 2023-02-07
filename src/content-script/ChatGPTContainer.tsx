@@ -4,7 +4,6 @@ import { fetchPromotion } from '../api'
 import { TriggerMode } from '../config'
 import ChatGPTCard from './ChatGPTCard'
 import { QueryStatus } from './ChatGPTQuery'
-import Promotion from './Promotion'
 
 interface Props {
   question: string
@@ -27,7 +26,6 @@ function ChatGPTContainer(props: Props) {
           onStatusChange={setQueryStatus}
         />
       </div>
-      {query.data && <Promotion data={query.data} />}
     </>
   )
 }
