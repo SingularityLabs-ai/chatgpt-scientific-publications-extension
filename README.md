@@ -1,10 +1,4 @@
-# ChatGPT for Google
-
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/wong2/chatgpt-google-extension/pre-release-build.yml)
-![Visitors](https://visitor-badge.glitch.me/badge?page_id=wong2.chat-gpt-google-extension&left_color=green&right_color=red)
-[![Twitter Follow](https://img.shields.io/twitter/follow/chatgpt4google?style=social)](https://twitter.com/chatgpt4google)
-[![Discord](https://img.shields.io/discord/1067789258124951614?label=Discord)](https://discord.gg/XjPxP23v6X)
-![License](https://img.shields.io/github/license/wong2/chatgpt-google-extension)
+# arXivGPT
 
 A browser extension to display ChatGPT response alongside Google (and other search engines) results
 
@@ -20,7 +14,7 @@ Google, Baidu, Bing, DuckDuckGo, Brave, Yahoo, Naver, Yandex, Kagi, Searx
 
 ## Screenshot
 
-![Screenshot](screenshots/extension.png?raw=true)
+<img width="1418" alt="image" src="https://user-images.githubusercontent.com/901975/217130285-20d0bf67-e9a8-46ca-9d9d-f49b42515a7d.png">
 
 ## Features
 
