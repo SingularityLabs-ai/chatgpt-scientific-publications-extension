@@ -1,11 +1,8 @@
 # arXivGPT
 
-A browser extension to display ChatGPT response alongside Google (and other search engines) results
+[link-chrome]: https://chrome.google.com/webstore/detail/arxivgpt/fbbfpcjhnnklhmncjickdipdlhoddjoh?hl=en&authuser=0 'Chrome Web Store'
 
-[Install from Chrome Web Store](https://chatgpt4google.com/chrome?utm_source=github)
-
-[Install from Mozilla Add-on Store](https://chatgpt4google.com/firefox?utm_source=github)
-
+[<img src="https://user-images.githubusercontent.com/3750161/214147732-c75e96a4-48a4-4b64-b407-c2402e899a75.PNG" height="67" alt="Chrome" valign="middle">][link-chrome]
 
 ## Screenshot
 
