@@ -19,4 +19,10 @@ export const config: Record<string, SearchEngine> = {
     sidebarContainerQuery: ['div[class="metatable"]'],
     appendContainerQuery: [],
   },
+  biorxiv: {
+    inputQuery: ["input[name='query']"],
+    bodyQuery: ['div[class="inside"]'],
+    sidebarContainerQuery: ['#panels-ajax-tab-container-highwire_article_tabs'],
+    appendContainerQuery: [],
+  },
 }

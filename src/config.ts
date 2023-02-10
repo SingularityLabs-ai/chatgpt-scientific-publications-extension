@@ -41,6 +41,21 @@ export const Prompt =
  If applicable, list at least 5 relevant references from the field of study of the paper. \
  '
 
+export interface SitePrompt {
+  site: string
+  prompt: string
+}
+
+export interface AllPrompt {
+  default: string
+  sites: SitePrompt[]
+}
+
+const promptDefaultValue = {
+  default: Prompt,
+  sites: [],
+}
+
 const userConfigWithDefaultValue = {
   triggerMode: TriggerMode.Always,
   theme: Theme.Auto,

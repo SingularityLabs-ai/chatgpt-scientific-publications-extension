@@ -2,7 +2,7 @@
   "name": "__MSG_appName__",
   "description": "__MSG_appDesc__",
   "default_locale": "en",
-  "version": "2023.02.07",
+  "version": "2023.02.09",
   "manifest_version": 3,
   "icons": {
     "16": "logo.png",
@@ -25,7 +25,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://arxiv.org/*"
+        "https://arxiv.org/*",
+        "https://www.biorxiv.org/content/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]
