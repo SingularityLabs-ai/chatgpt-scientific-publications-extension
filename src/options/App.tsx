@@ -1,19 +1,12 @@
-import {
-  Button,
-  CssBaseline,
-  GeistProvider,
-  Radio,
-  Text,
-  Textarea,
-  Toggle,
-  useToasts,
-} from '@geist-ui/core'
+import { Button, CssBaseline, GeistProvider, Radio, Text, Toggle, useToasts } from '@geist-ui/core'
+import { Plus } from '@geist-ui/icons'
 import { useCallback, useEffect, useMemo, useState } from 'preact/hooks'
 import '../base.css'
 import {
   getUserConfig,
   Language,
   Prompt,
+  SitePrompt,
   Theme,
   TriggerMode,
   TRIGGER_MODE_TEXT,
@@ -21,12 +14,17 @@ import {
 } from '../config'
 import logo from '../logo.png'
 import { detectSystemColorScheme, getExtensionVersion } from '../utils'
+import AddNewPromptModal from './AddNewPromptModal'
+import PromptCard from './PromptCard'
 import ProviderSelect from './ProviderSelect'
 
 function OptionsPage(props: { theme: Theme; onThemeChange: (theme: Theme) => void }) {
   const [triggerMode, setTriggerMode] = useState<TriggerMode>(TriggerMode.Always)
   const [language, setLanguage] = useState<Language>(Language.Auto)
   const [prompt, setPrompt] = useState<string>(Prompt)
+  const [promptOverrides, setPromptOverrides] = useState<SitePrompt[]>([])
+  const [modalVisible, setModalVisible] = useState<boolean>(false)
+
   const { setToast } = useToasts()
 
   useEffect(() => {
@@ -34,7 +32,12 @@ function OptionsPage(props: { theme: Theme; onThemeChange: (theme: Theme) => voi
       setTriggerMode(config.triggerMode)
       setLanguage(config.language)
       setPrompt(config.prompt)
+      setPromptOverrides(config.promptOverrides)
     })
+  }, [])
+
+  const closeModalHandler = useCallback(() => {
+    setModalVisible(false)
   }, [])
 
   const onTriggerModeChange = useCallback(
@@ -51,15 +54,6 @@ function OptionsPage(props: { theme: Theme; onThemeChange: (theme: Theme) => voi
       updateUserConfig({ theme })
       props.onThemeChange(theme)
       setToast({ text: 'Changes saved', type: 'success' })
-    },
-    [props, setToast],
-  )
-
-  const onPromptChange = useCallback(
-    (prompt: string) => {
-      setPrompt(prompt)
-      updateUserConfig({ prompt })
-      setToast({ text: 'Prompt changes saved', type: 'success' })
     },
     [props, setToast],
   )
@@ -96,23 +90,64 @@ function OptionsPage(props: { theme: Theme; onThemeChange: (theme: Theme) => voi
           </a>
         </div>
       </nav>
-      <main className="w-[500px] mx-auto mt-14">
+      <main className="w-[600px] mx-auto mt-14">
         <Text h2>Options</Text>
         <Text h3 className="mt-5">
           Prompt
         </Text>
-        <Textarea
-          value={prompt}
-          style={{ width: '80ch', height: '10em' }}
-          onChange={(event) => setPrompt(event.target.value)}
-        >
-          {prompt}
-        </Textarea>
-        <Button onClick={() => onPromptChange(prompt)} className="mt-3">
-          Save Prompt
+
+        <PromptCard
+          header={'default'}
+          onSave={(prompt) => updateUserConfig({ prompt })}
+          prompt={prompt}
+        />
+
+        {promptOverrides.map((override, index) => {
+          return (
+            <div key={override.site} className="my-3">
+              <PromptCard
+                header={override.site}
+                prompt={override.prompt}
+                onSave={(newPrompt) => {
+                  const newOverride: SitePrompt = {
+                    site: override.site,
+                    prompt: newPrompt,
+                  }
+                  const newOverrides = promptOverrides.filter((o) => o.site !== override.site)
+                  newOverrides.splice(index, 0, newOverride)
+                  setPromptOverrides(newOverrides)
+                  return updateUserConfig({ promptOverrides: newOverrides })
+                }}
+                onDismiss={() => {
+                  const newOverrides = promptOverrides.filter((_, i) => i !== index)
+                  setPromptOverrides(newOverrides)
+                  return updateUserConfig({ promptOverrides: newOverrides })
+                }}
+              />
+            </div>
+          )
+        })}
+
+        <Button mt={1} type="secondary" width={'100%'} onClick={() => setModalVisible(true)}>
+          <Plus size={16} className="mx-2" />
+          Add Prompt
         </Button>
 
-        <Text h3 className="mt-5">
+        <AddNewPromptModal
+          visible={modalVisible}
+          onClose={closeModalHandler}
+          onSave={({ site, prompt }) => {
+            const newOverride: SitePrompt = {
+              site,
+              prompt,
+            }
+            const newOverrides = promptOverrides.concat([newOverride])
+            setPromptOverrides(newOverrides)
+            return updateUserConfig({ promptOverrides: newOverrides })
+          }}
+        />
+
+        <Text h3 className="mt-8">
           Trigger Mode
         </Text>
 
