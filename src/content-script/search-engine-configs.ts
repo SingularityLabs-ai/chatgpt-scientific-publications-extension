@@ -25,4 +25,16 @@ export const config: Record<string, SearchEngine> = {
     sidebarContainerQuery: ['#panels-ajax-tab-container-highwire_article_tabs'],
     appendContainerQuery: [],
   },
+  pubmed: {
+    inputQuery: [],
+    bodyQuery: ['#abstract'],
+    sidebarContainerQuery: ['#copyright'],
+    appendContainerQuery: [],
+  },
+  ieeexplore: {
+    inputQuery: [],
+    bodyQuery: ['div.abstract-text.row div.u-mb-1 div'],
+    sidebarContainerQuery: ['div.u-pb-1.stats-document-abstract-publishedIn'],
+    appendContainerQuery: [],
+  },
 }

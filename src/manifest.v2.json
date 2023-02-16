@@ -25,7 +25,9 @@
     {
       "matches": [
         "https://arxiv.org/*",
-        "https://www.biorxiv.org/content/*"
+        "https://www.biorxiv.org/content/*",
+        "https://pubmed.ncbi.nlm.nih.gov/*",
+        "https://ieeexplore.ieee.org/document/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]
