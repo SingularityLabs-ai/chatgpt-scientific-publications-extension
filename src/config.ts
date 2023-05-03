@@ -7,10 +7,10 @@ export enum TriggerMode {
 }
 
 export const TRIGGER_MODE_TEXT = {
-  [TriggerMode.Always]: { title: 'Always', desc: 'ArxivGPT is queried on every search' },
+  [TriggerMode.Always]: { title: 'Always', desc: 'SciGPT is queried on every search' },
   [TriggerMode.Manually]: {
     title: 'Manually',
-    desc: 'ArxivGPT is queried when you manually click a button',
+    desc: 'SciGPT is queried when you manually click a button',
   },
 }
 

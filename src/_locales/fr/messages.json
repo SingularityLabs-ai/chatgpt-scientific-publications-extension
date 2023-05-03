@@ -1,8 +1,8 @@
 {
   "appName": {
-    "message": "ArxivGPT"
+    "message": "SciGPT"
   },
   "appDesc": {
-    "message": "Résumer et fournir des éclairages clés pour un article arxiv."
+    "message": "Résumer et fournir des éclairages clés pour un article."
   }
 }

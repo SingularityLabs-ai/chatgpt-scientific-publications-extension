@@ -1,6 +1,6 @@
 {
   "appName": {
-    "message": "ArxivGPT"
+    "message": "SciGPT"
   },
   "appDesc": {
     "message": "ChatGPT로 Arxiv논문의 인사이트를 제공합니다."

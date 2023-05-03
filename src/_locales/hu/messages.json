@@ -1,8 +1,8 @@
 {
   "appName": {
-    "message": "ArxivGPT"
+    "message": "SciGPT"
   },
   "appDesc": {
-    "message": "Összegzés és kulcsfontosságú betekintések bármely arxiv cikkre"
+    "message": "Összegzés és kulcsfontosságú betekintések bármely cikkre"
   }
 }

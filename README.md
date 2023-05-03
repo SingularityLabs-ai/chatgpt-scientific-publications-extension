@@ -1,4 +1,4 @@
-# arXivGPT
+# SciGPT
 
 [link-chrome]: https://chrome.google.com/webstore/detail/arxivgpt/fbbfpcjhnnklhmncjickdipdlhoddjoh?hl=en&authuser=0 'Chrome Web Store'
 

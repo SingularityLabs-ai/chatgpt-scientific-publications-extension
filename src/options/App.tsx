@@ -75,14 +75,14 @@ function OptionsPage(props: { theme: Theme; onThemeChange: (theme: Theme) => voi
         </div>
         <div className="flex flex-row gap-3">
           <a
-            href="https://github.com/hunkimForks/chatgpt-arxiv-extension/issues"
+            href="https://github.com/ishandutta2007/chatgpt-scientific-publications-extension/issues"
             target="_blank"
             rel="noreferrer"
           >
             Feedback
           </a>
           <a
-            href="https://github.com/hunkimForks/chatgpt-arxiv-extension"
+            href="https://github.com/ishandutta2007/chatgpt-scientific-publications-extension"
             target="_blank"
             rel="noreferrer"
           >
