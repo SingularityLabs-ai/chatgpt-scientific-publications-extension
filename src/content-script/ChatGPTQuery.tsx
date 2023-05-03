@@ -24,7 +24,7 @@ interface Requestion {
 }
 
 interface ReQuestionAnswerProps {
-  answerText: string | undefined;
+  latestAnswerText: string | undefined
 }
 
 function ChatGPTQuery(props: Props) {
@@ -39,7 +39,7 @@ function ChatGPTQuery(props: Props) {
   const [reQuestionDone, setReQuestionDone] = useState(false)
   const [requestionList, setRequestionList] = useState<Requestion[]>([])
   const [questionIndex, setQuestionIndex] = useState(0)
-  const [reQuestionAnswerText, setReQuestionAnswerText] = useState<string | undefined>();
+  const [reQuestionLatestAnswerText, setReQuestionLatestAnswerText] = useState<string | undefined>()
 
   useEffect(() => {
     props.onStatusChange?.(status)
@@ -105,8 +105,8 @@ function ChatGPTQuery(props: Props) {
           const requestionListValue = requestionList
           requestionListValue[questionIndex].answer = msg
           setRequestionList(requestionListValue)
-          const answerText = requestionList[questionIndex]?.answer?.text;
-          setReQuestionAnswerText(answerText);
+          const latestAnswerText = requestionList[questionIndex]?.answer?.text
+          setReQuestionLatestAnswerText(latestAnswerText)
         } else if (msg.event === 'DONE') {
           setReQuestionDone(true)
           setQuestionIndex(questionIndex + 1)
@@ -119,7 +119,10 @@ function ChatGPTQuery(props: Props) {
     port.postMessage({
       question: requestionList[questionIndex].requestion,
       conversationId: answer?.conversationId,
-      parentMessageId: (questionIndex == 0 ? (answer?.messageId) : (requestionList[questionIndex - 1].answer?.messageId)),
+      parentMessageId:
+        questionIndex == 0
+          ? answer?.messageId
+          : requestionList[questionIndex - 1].answer?.messageId,
     })
     return () => {
       port.onMessage.removeListener(listener)
@@ -144,22 +147,22 @@ function ChatGPTQuery(props: Props) {
     )
   }
 
-  const ReQuestionAnswer = ({ answerText }: ReQuestionAnswerProps) => {
-    if (!answerText || requestionList[requestionList.length-1]?.answer?.text == undefined) {
-      return <p className="text-[#b6b8ba] animate-pulse">Answering...</p>;
+  const ReQuestionAnswer = ({ latestAnswerText }: ReQuestionAnswerProps) => {
+    if (!latestAnswerText || requestionList[requestionList.length - 1]?.answer?.text == undefined) {
+      return <p className="text-[#b6b8ba] animate-pulse">Answering...</p>
     }
     return (
       <ReactMarkdown rehypePlugins={[[rehypeHighlight, { detect: true }]]}>
-        {answerText}
+        {latestAnswerText}
       </ReactMarkdown>
-    );
-  };
+    )
+  }
 
   if (answer) {
     return (
       <div className="markdown-body gpt-markdown" id="gpt-answer" dir="auto">
         <div className="gpt-header">
-          <span className="font-bold">arXivGPT</span>
+          <span className="font-bold">SciGPT</span>
           <span className="cursor-pointer leading-[0]" onClick={openOptionsPage}>
             <GearIcon size={14} />
           </span>
@@ -167,7 +170,7 @@ function ChatGPTQuery(props: Props) {
           <ChatGPTFeedback
             messageId={answer.messageId}
             conversationId={answer.conversationId}
-            answerText={answer.text}
+            latestAnswerText={answer.text}
           />
         </div>
         <ReactMarkdown rehypePlugins={[[rehypeHighlight, { detect: true }]]}>
@@ -184,10 +187,10 @@ function ChatGPTQuery(props: Props) {
                   Failed to load response from ChatGPT:
                   <span className="break-all block">{reError}</span>
                 </p>
+              ) : requestion.index < requestionList.length - 1 ? (
+                <ReQuestionAnswerFixed text={requestion.answer?.text} />
               ) : (
-                (requestion.index < requestionList.length - 1) ?
-                (<ReQuestionAnswerFixed text={requestion.answer?.text} />)
-                :(<ReQuestionAnswer answerText={reQuestionAnswerText} />)
+                <ReQuestionAnswer latestAnswerText={reQuestionLatestAnswerText} />
               )}
             </div>
           ))}
@@ -206,14 +209,12 @@ function ChatGPTQuery(props: Props) {
               disabled={!reQuestionDone}
               type="text"
               ref={inputRef}
-              placeholder="Ask Me Anything"
+              placeholder="Tell Me More"
               id="question"
-              style={{ width: '100%', padding: '1rem' }}
             />
             <button
               id="submit"
               onClick={requeryHandler}
-              style={{ backgroundColor: '#fff', padding: '1rem', borderRadius: '0.2rem' }}
             >
               ASK
             </button>
