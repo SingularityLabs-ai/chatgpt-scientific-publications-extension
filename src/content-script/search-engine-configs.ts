@@ -120,6 +120,12 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['#pb-page-content > div > main > article > div > div.col-sm-12.col-md-8.article__content > div.article__body > div.hlFld-Fulltext'],
     sidebarContainerQuery: ['#pb-page-content > div > main > article'],
     appendContainerQuery: [],
+  },
+  royalsocietypublishing : {
+    inputQuery: [],
+    bodyQuery: ['#pb-page-content > div > main > div.container > div > div > article > div > div.mobile-gutters > div > div.article__content > div.article__body > div > div > p'],
+    sidebarContainerQuery: ['div[class="epub-section"]'],
+    appendContainerQuery: [],
   }
 }
     // bodyQuery: ['#abstract div[role="paragraph"]'],
