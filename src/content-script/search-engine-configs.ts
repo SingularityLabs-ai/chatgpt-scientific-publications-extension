@@ -37,4 +37,10 @@ export const config: Record<string, SearchEngine> = {
     sidebarContainerQuery: ['div.u-pb-1.stats-document-abstract-publishedIn'],
     appendContainerQuery: [],
   },
+  acm: {
+    inputQuery: [],
+    bodyQuery: ['div[class="abstractInFull"]'],
+    sidebarContainerQuery: ['div[class="pb-dropzone"]'],
+    appendContainerQuery: [],
+  },
 }
