@@ -48,6 +48,7 @@
 * Annals of Surgery: "https://journals.lww.com/annalsofsurgery/Abstract/*"
 * Gut: "https://gut.bmj.com/*"
 * Journal of Nuclear Medicine: "https://jnm.snmjournals.org/content/*"
+* Environmental Health Perspectives: "https://ehp.niehs.nih.gov/doi/*"
 
 (To be fixed:)
 
@@ -62,7 +63,6 @@ Journal of Virology: https://jvi.asm.org/
 Journal of the American Society of Nephrology (JASN): https://jasn.asnjournals.org/
 Journal of Clinical Investigation (JCI): https://www.jci.org/
 Journal of Investigative Dermatology: https://www.jidonline.org/
-Environmental Health Perspectives: https://ehp.niehs.nih.gov/
 
 ## Custom Prompt
 You can change the prompt.
