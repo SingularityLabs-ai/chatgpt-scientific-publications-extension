@@ -14,7 +14,7 @@
 * Bioxiv: "https://www.biorxiv.org/content/*"
 * Pubmed: "https://pubmed.ncbi.nlm.nih.gov/*"
 * IEEE: "https://ieeexplore.ieee.org/document/*"
-* sciencedirect: "https://www.sciencedirect.com/science/article/*"
+* Sciencedirect: "https://www.sciencedirect.com/science/article/*"
 * ACM: "https://dl.acm.org/doi/*"
 * Nature: "https://www.nature.com/articles/*"
 * Cell: "https://www.cell.com/*"
@@ -35,7 +35,7 @@
 * Journal of Neuroscience: "https://www.jneurosci.org/content/*"
 * Journal of Clinical Oncology: "https://ascopubs.org/doi/*"
 * Onlinelibrary Wiley: "https://onlinelibrary.wiley.com/doi/*"
-* Onlinelibrary Wiley: "https://\*.onlinelibrary.wiley.com/doi/\*"
+* Onlinelibrary Wiley (Subdomain): "https://\*.onlinelibrary.wiley.com/doi/\*"
 * Embopress: "https://www.embopress.org/doi/*"
 * Oxford Academic: "https://academic.oup.com/*"
 * Rockefeller University Press: "https://rupress.org/*"
@@ -47,6 +47,7 @@
 * RSC: "https://pubs.rsc.org/*"
 * Annals of Surgery: "https://journals.lww.com/annalsofsurgery/Abstract/*"
 * Gut: "https://gut.bmj.com/*"
+* Journal of Nuclear Medicine: "https://jnm.snmjournals.org/content/*"
 
 (To be fixed:)
 
@@ -59,7 +60,6 @@ Diabetes: "https://diabetes.diabetesjournals.org/*"
 Journal of Personality and Social Psychology: https://psycnet.apa.org/journals/psp/
 Journal of Virology: https://jvi.asm.org/
 Journal of the American Society of Nephrology (JASN): https://jasn.asnjournals.org/
-Journal of Nuclear Medicine: https://jnm.snmjournals.org/
 Journal of Clinical Investigation (JCI): https://www.jci.org/
 Journal of Investigative Dermatology: https://www.jidonline.org/
 Environmental Health Perspectives: https://ehp.niehs.nih.gov/

@@ -246,6 +246,12 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['#content-block > div.article'],
     sidebarContainerQuery: ['ol[class="corresp-list"]'],
     appendContainerQuery: [],
+  },
+  jnm : {
+    inputQuery: [],
+    bodyQuery: ['#panels-ajax-tab-container-highwire_article_tabs > div.panels-ajax-tab-wrap-jnl_snm_tab_art > div > div > div > div > div > div > div > div'],
+    sidebarContainerQuery: ['#block-system-main > div > div > div > div:nth-child(2) > div.main-content-wrapper.alpha > div > div > div.panel-pane.pane-highwire-panel-tabs.pane-panels-ajax-tab-tabs > div > div > ul'],
+    appendContainerQuery: [],
   }
 }
 
