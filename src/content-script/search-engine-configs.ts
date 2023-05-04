@@ -150,6 +150,13 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['div > div > div.publication-tabs.ja.publication-tabs-dropdown > div > div > div.tab.tab-pane.active > article'],
     sidebarContainerQuery: ['ul[class="tab-nav"]'],
     appendContainerQuery: [],
+  },
+  onlinelibrary : {
+    inputQuery: [],
+    bodyQuery: ['#section-1-en > div > p:nth-child(1)'],
+    sidebarContainerQuery: ['#section-1-en'],
+    appendContainerQuery: [],
   }
+        // "https://onlinelibrary.wiley.com/doi/*"#article__content > div.fixedCoolBar
 }
     // bodyQuery: ['#abstract div[role="paragraph"]'],

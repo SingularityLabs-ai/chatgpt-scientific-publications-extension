@@ -31,14 +31,14 @@
 * The American Journal of Psychiatry (AJP): "https://ajp.psychiatryonline.org/doi/*"
 * Journal of Neuroscience: "https://www.jneurosci.org/content/*"
 * Journal of Clinical Oncology: "https://ascopubs.org/doi/*"
+* Advanced Materials: "https://onlinelibrary.wiley.com/doi/*"
 
 (To be fixed:)
 
 Science: "https://www.sciencemag.org/doi/*"
-
-
 Earth and Planetary Science Letters: https://www.journals.elsevier.com/earth-and-planetary-science-letters/
-Advanced Materials: https://onlinelibrary.wiley.com/journal/15214095
+
+
 The Lancet Infectious Diseases: https://www.thelancet.com/journals/laninf/home
 Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences: https://royalsocietypublishing.org/journal/rspa
 Annual Review of Biochemistry: https://www.annualreviews.org/journal/biochem
