@@ -35,7 +35,8 @@
         "https://www.cell.com/*",
         "https://www.thelancet.com/journals/*",
         "https://www.pnas.org/doi/*",
-        "https://www.nejm.org/doi/*"
+        "https://www.nejm.org/doi/*",
+        "https://jamanetwork.com/journals/jama/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]

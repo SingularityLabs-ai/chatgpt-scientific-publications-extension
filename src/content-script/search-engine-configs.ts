@@ -78,6 +78,12 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['#article_body'],
     sidebarContainerQuery: ['#article_body > h2'],
     appendContainerQuery: [],
+  },
+  jama : {
+    inputQuery: [],
+    bodyQuery: ['div[class="abstract-content"]'],
+    sidebarContainerQuery: ['#webform > section.master-main > div.content.pb0 > div.article-content'],
+    appendContainerQuery: [],
   }
 }
     // bodyQuery: ['#abstract div[role="paragraph"]'],
