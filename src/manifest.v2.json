@@ -43,7 +43,8 @@
         "https://journals.plos.org/plosone/*",
         "https://www.acpjournals.org/doi/*",
         "https://royalsocietypublishing.org/doi/*",
-        "https://ajp.psychiatryonline.org/doi/*"
+        "https://ajp.psychiatryonline.org/doi/*",
+        "https://www.jneurosci.org/content/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]

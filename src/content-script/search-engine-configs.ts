@@ -132,6 +132,12 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['#pb-page-content > div > div:nth-child(2) > div > main > div.container > div > div > article > div > div.article__content > div.article__body > div.hlFld-Fulltext > p:nth-child(1)'],
     sidebarContainerQuery: ['div[class="epub-section"]'],
     appendContainerQuery: [],
+  },
+  jneurosci : {
+    inputQuery: [],
+    bodyQuery: ['#abstract-1'],
+    sidebarContainerQuery: ['div[class="inside"]'],
+    appendContainerQuery: [],
   }
 }
     // bodyQuery: ['#abstract div[role="paragraph"]'],
