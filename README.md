@@ -9,6 +9,7 @@
 <img width="1418" alt="image" src="https://user-images.githubusercontent.com/901975/217130285-20d0bf67-e9a8-46ca-9d9d-f49b42515a7d.png">
 
 ## Avaiable Sites (TBA or TBA as a configuration feature)
+
 * Arxiv: "https://arxiv.org/*"
 * Bioxiv: "https://www.biorxiv.org/content/*"
 * Pubmed: "https://pubmed.ncbi.nlm.nih.gov/*"
@@ -32,20 +33,19 @@
 * Journal of Neuroscience: "https://www.jneurosci.org/content/*"
 * Journal of Clinical Oncology: "https://ascopubs.org/doi/*"
 * Onlinelibrary Wiley: "https://onlinelibrary.wiley.com/doi/*"
+* Oxford Academic: "https://academic.oup.com/*"
 
 (To be fixed:)
 
 Sciencemag: "https://www.sciencemag.org/doi/*"
 Earth and Planetary Science Letters: https://www.journals.elsevier.com/earth-and-planetary-science-letters/
 
-Annual Review of Biochemistry: https://www.annualreviews.org/journal/biochem
-Clinical Infectious Diseases: https://academic.oup.com/cid
+
+* Annual Review of Biochemistry: https://www.annualreviews.org/journal/biochem
 Journal of Geophysical Research: Solid Earth: https://agupubs.onlinelibrary.wiley.com/journal/21699356
 Journal of Climate: https://journals.ametsoc.org/jcli
 Chemical Science: https://pubs.rsc.org/en/journals/journalissues/sc
-The Plant Cell: https://academic.oup.com/plcell
 Blood: https://ashpublications.org/blood
-European Heart Journal: https://academic.oup.com/eurheartj
 Journal of Cell Biology: https://rupress.org/jcb
 Clinical Cancer Research: https://clincancerres.aacrjournals.org/
 Journal of the American College of Cardiology (JACC): https://www.jacc.org/
@@ -61,27 +61,20 @@ Annual Review of Astronomy and Astrophysics: https://www.annualreviews.org/journ
 Gut: https://gut.bmj.com/
 Journal of Personality and Social Psychology: https://psycnet.apa.org/journals/psp/
 Journal of Experimental Medicine (JEM): https://rupress.org/jem
-Journal of the National Cancer Institute (JNCI): https://academic.oup.com/jnci
 Journal of Virology: https://jvi.asm.org/
 Chemical Communications: https://pubs.rsc.org/en/journals/journalissues/cc
 Journal of the American Society of Nephrology (JASN): https://jasn.asnjournals.org/
-Journal of Clinical Endocrinology & Metabolism (JCEM): https://academic.oup.com/jcem
-Journal of Infectious Diseases: https://academic.oup.com/jid
 Journal of Nuclear Medicine: https://jnm.snmjournals.org/
 Hypertension: https://www.ahajournals.org/journal/hyp
 Journal of Clinical Investigation (JCI): https://www.jci.org/
 Progress in Materials Science: https://www.journals.elsevier.com/progress-in
-The Plant Cell: https://academic.oup.com/plcell
 Diabetes: https://diabetes.diabetesjournals.org/
 Journal of Investigative Dermatology: https://www.jidonline.org/
 Journal of Ecology: https://besjournals.onlinelibrary.wiley.com/journal/13652745
 Environmental Health Perspectives: https://ehp.niehs.nih.gov/
 Journal of Biological Chemistry (JBC): https://www.jbc.org/
-International Journal of Epidemiology: https://academic.oup.com/ije
-Bioinformatics: https://academic.oup.com/bioinformatics
 Journal of Geophysical Research: https://agupubs.onlinelibrary.wiley.com/journal/2156531X
 Journal of Physiology: https://physoc.onlinelibrary.wiley.com/journal/14697793
-Molecular Biology and Evolution: https://academic.oup.com/mbe
 Journal of Climate: https://journals.ametsoc.org/jcli
 
 ## Custom Prompt

@@ -48,7 +48,8 @@
         "https://ajp.psychiatryonline.org/doi/*",
         "https://www.jneurosci.org/content/*",
         "https://ascopubs.org/doi/*",
-        "https://onlinelibrary.wiley.com/doi/*"
+        "https://onlinelibrary.wiley.com/doi/*",
+        "https://academic.oup.com/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]

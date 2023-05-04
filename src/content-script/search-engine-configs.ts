@@ -156,7 +156,11 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['#section-1-en > div > p:nth-child(1)'],
     sidebarContainerQuery: ['#section-1-en'],
     appendContainerQuery: [],
+  },
+  academic : {
+    inputQuery: [],
+    bodyQuery: ['#ContentTab > div.widget.widget-ArticleFulltext.widget-instance-OUP_Article_FullText_Widget > div > div > section:nth-child(2)'],
+    sidebarContainerQuery: ['#ContentTab'],
+    appendContainerQuery: [],
   }
-        // "https://onlinelibrary.wiley.com/doi/*"#article__content > div.fixedCoolBar
 }
-    // bodyQuery: ['#abstract div[role="paragraph"]'],
