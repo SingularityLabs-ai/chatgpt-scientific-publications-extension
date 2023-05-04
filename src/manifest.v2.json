@@ -51,7 +51,8 @@
         "https://ascopubs.org/doi/*",
         "https://onlinelibrary.wiley.com/doi/*",
         "https://academic.oup.com/*",
-        "https://www.annualreviews.org/doi/*"
+        "https://www.annualreviews.org/doi/*",
+        "https://rupress.org/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]

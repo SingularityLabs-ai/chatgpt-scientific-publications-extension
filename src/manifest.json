@@ -51,7 +51,8 @@
         "https://www.jneurosci.org/content/*",
         "https://ascopubs.org/doi/*",
         "https://onlinelibrary.wiley.com/doi/*",
-        "https://academic.oup.com/*"
+        "https://academic.oup.com/*",
+        "https://rupress.org/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]

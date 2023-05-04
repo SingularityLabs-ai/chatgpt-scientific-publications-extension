@@ -174,5 +174,11 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['#ContentTab > div.widget.widget-ArticleFulltext.widget-instance-OUP_Article_FullText_Widget > div > div > section:nth-child(2)'],
     sidebarContainerQuery: ['#ContentTab'],
     appendContainerQuery: [],
+  },
+  rupress : {
+    inputQuery: [],
+    bodyQuery: ['section[class="abstract"]'],
+    sidebarContainerQuery: ['#ContentTab'],
+    appendContainerQuery: [],
   }
 }

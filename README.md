@@ -36,6 +36,7 @@
 * Journal of Clinical Oncology: "https://ascopubs.org/doi/*"
 * Onlinelibrary Wiley: "https://onlinelibrary.wiley.com/doi/*"
 * Oxford Academic: "https://academic.oup.com/*"
+* Rockefeller University Press: "https://rupress.org/*"
 
 (To be fixed:)
 
@@ -48,7 +49,6 @@ Journal of Geophysical Research: Solid Earth: https://agupubs.onlinelibrary.wile
 Journal of Climate: https://journals.ametsoc.org/jcli
 Chemical Science: https://pubs.rsc.org/en/journals/journalissues/sc
 Blood: https://ashpublications.org/blood
-Journal of Cell Biology: https://rupress.org/jcb
 Clinical Cancer Research: https://clincancerres.aacrjournals.org/
 Journal of the American College of Cardiology (JACC): https://www.jacc.org/
 Chemical Engineering Journal: https://www.journals.elsevier.com/chemical-engineering-journal/
