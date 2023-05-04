@@ -66,7 +66,8 @@
         "https://journals.lww.com/annalsofsurgery/Abstract/*",
         "https://gut.bmj.com/content/*",
         "https://jnm.snmjournals.org/content/*",
-        "https://ehp.niehs.nih.gov/doi/*"
+        "https://ehp.niehs.nih.gov/doi/*",
+        "https://www.jidonline.org/article/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]

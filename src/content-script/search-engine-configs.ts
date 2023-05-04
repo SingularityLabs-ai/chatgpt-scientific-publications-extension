@@ -258,6 +258,12 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['#pb-page-content > div > div.full-text > div > main > article > div > div.article__content > div.article__body'],
     sidebarContainerQuery: ['div[class="epub-section"]'],
     appendContainerQuery: [],
+  },
+  jidonline : {
+    inputQuery: [],
+    bodyQuery: ['#sec1 > div'],
+    sidebarContainerQuery: ['section#sec1'],
+    appendContainerQuery: [],
   }
 }
 

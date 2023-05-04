@@ -49,6 +49,7 @@
 * Gut: "https://gut.bmj.com/*"
 * Journal of Nuclear Medicine: "https://jnm.snmjournals.org/content/*"
 * Environmental Health Perspectives: "https://ehp.niehs.nih.gov/doi/*"
+* Journal of Investigative Dermatology: "https://www.jidonline.org/article/*"
 
 (To be fixed:)
 
@@ -62,7 +63,6 @@ Journal of Personality and Social Psychology: https://psycnet.apa.org/journals/p
 Journal of Virology: https://jvi.asm.org/
 Journal of the American Society of Nephrology (JASN): https://jasn.asnjournals.org/
 Journal of Clinical Investigation (JCI): https://www.jci.org/
-Journal of Investigative Dermatology: https://www.jidonline.org/
 
 ## Custom Prompt
 You can change the prompt.
