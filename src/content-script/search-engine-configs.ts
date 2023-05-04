@@ -205,4 +205,10 @@ export const config: Record<string, SearchEngine> = {
     sidebarContainerQuery: ['nav[class="container-tabs"]'],
     appendContainerQuery: [],
   },
+  aacrjournals : {
+    inputQuery: [],
+    bodyQuery: ['#ContentTab > div.widget-ArticleFulltext.widget-instance-ArticleFulltext > div > div'],
+    sidebarContainerQuery: ['#ContentTab'],
+    appendContainerQuery: [],
+  }
 }

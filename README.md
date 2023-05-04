@@ -40,6 +40,7 @@
 * Ashpublications: "https://ashpublications.org/*"
 * Ahajournals: "https://www.ahajournals.org/doi/*"
 * Ametsoc: "https://journals.ametsoc.org/*"
+* Clinical Cancer Research: "https://aacrjournals.org/*"
 
 (To be fixed:)
 
@@ -49,7 +50,7 @@ Journal of the American College of Cardiology (JACC): https://www.jacc.org/doi/
 
 Journal of Geophysical Research: Solid Earth: https://agupubs.onlinelibrary.wiley.com/journal/21699356
 Chemical Science: https://pubs.rsc.org/en/journals/journalissues/sc
-Clinical Cancer Research: https://clincancerres.aacrjournals.org/
+
 Chemical Engineering Journal: https://www.journals.elsevier.com/chemical-engineering-journal/
 The EMBO Journal: https://www.embopress.org/journal/14602075
 Journal of Neuroscience Methods: https://www.journals.elsevier.com/journal-of-neuroscience-methods/
