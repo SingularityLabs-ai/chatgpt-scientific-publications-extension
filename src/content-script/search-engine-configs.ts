@@ -96,6 +96,18 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['#page-content > div:nth-child(3) > div.article-content'],
     sidebarContainerQuery: ['#page-content > div.article-head > h1'],
     appendContainerQuery: [],
+  },
+  acs : {
+    inputQuery: [],
+    bodyQuery: ['#abstractBox'],
+    sidebarContainerQuery: ['#Abstract'],
+    appendContainerQuery: [],
+  },
+  plos : {
+    inputQuery: [],
+    bodyQuery: ['div[class="abstract-content"]'],
+    sidebarContainerQuery: ['#artText'],
+    appendContainerQuery: [],
   }
 }
     // bodyQuery: ['#abstract div[role="paragraph"]'],

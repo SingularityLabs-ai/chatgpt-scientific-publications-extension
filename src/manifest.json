@@ -38,7 +38,9 @@
         "https://www.nejm.org/doi/*",
         "https://jamanetwork.com/journals/jama/*",
         "https://journals.aps.org/prl/abstract/*",
-        "https://iopscience.iop.org/article/*"
+        "https://iopscience.iop.org/article/*",
+        "https://pubs.acs.org/doi/*",
+        "https://journals.plos.org/plosone/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]

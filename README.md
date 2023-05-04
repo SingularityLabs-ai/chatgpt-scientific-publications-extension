@@ -22,16 +22,14 @@
 * JAMA: The Journal of the American Medical Association: "https://jamanetwork.com/journals/jama/*"
 * Physical Review Letters (PRL): "https://journals.aps.org/prl/abstract/*"
 * Astrophysical Journal: "https://iopscience.iop.org/article/*"
-
+* ACS "https://pubs.acs.org/doi/*"
+* PLOS ONE: "https://journals.plos.org/plosone/*"
 
 (To be fixed:)
 
 Science: "https://www.sciencemag.org/doi/*"
 
 
-Chemical Reviews: https://pubs.acs.org/journal/chreay
-Nature Communications: https://www.nature.com/ncomms/
-PLOS ONE: https://journals.plos.org/plosone/
 Journal of Biological Chemistry (JBC): https://www.jbc.org/
 Annals of Internal Medicine: https://www.acpjournals.org/journal/aim
 Proceedings of the Royal Society B: Biological Sciences: https://royalsocietypublishing.org/journal/rspb
