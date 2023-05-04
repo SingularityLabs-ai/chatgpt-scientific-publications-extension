@@ -46,11 +46,13 @@
 * Atsjournals: "https://www.atsjournals.org/doi/*"
 * RSC: "https://pubs.rsc.org/*"
 * Annals of Surgery: "https://journals.lww.com/annalsofsurgery/Abstract/*"
+* Journal of the American Society of Nephrology (JASN): "https://journals.lww.com/jasn/Abstract/*"
 * Gut: "https://gut.bmj.com/*"
 * Journal of Nuclear Medicine: "https://jnm.snmjournals.org/content/*"
 * Environmental Health Perspectives: "https://ehp.niehs.nih.gov/doi/*"
 * Journal of Investigative Dermatology: "https://www.jidonline.org/article/*"
 * Journal of Clinical Investigation (JCI): "https://www.jci.org/articles/view/*"
+* American Society for Microbiology (AMS): "https://journals.asm.org/doi/*"
 
 (To be fixed:)
 
@@ -61,8 +63,6 @@ Journal of Hepatology: https://www.journal-of-hepatology.eu/
 Diabetes: "https://diabetes.diabetesjournals.org/*"
 
 Journal of Personality and Social Psychology: https://psycnet.apa.org/journals/psp/
-Journal of Virology: https://jvi.asm.org/
-Journal of the American Society of Nephrology (JASN): https://jasn.asnjournals.org/
 
 ## Custom Prompt
 You can change the prompt.

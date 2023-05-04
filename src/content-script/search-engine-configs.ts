@@ -241,6 +241,12 @@ export const config: Record<string, SearchEngine> = {
     sidebarContainerQuery: ['#ArticleContainer'],
     appendContainerQuery: [],
   },
+  jasn : {
+    inputQuery: [],
+    bodyQuery: ['#article-abstract-content1 > div'],
+    sidebarContainerQuery: ['#ArticleContainer'],
+    appendContainerQuery: [],
+  },
   gut : {
     inputQuery: [],
     bodyQuery: ['#content-block > div.article'],
@@ -269,6 +275,12 @@ export const config: Record<string, SearchEngine> = {
     inputQuery: [],
     bodyQuery: ['#section-abstract > p'],
     sidebarContainerQuery: ['h1[class="article-title"]'],
+    appendContainerQuery: [],
+  },
+  asm : {
+    inputQuery: [],
+    bodyQuery: ['section#abstract'],
+    sidebarContainerQuery: ['h2[property="name"]'],
     appendContainerQuery: [],
   }
 }
