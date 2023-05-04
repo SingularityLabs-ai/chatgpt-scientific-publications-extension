@@ -60,6 +60,12 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['div[class="section-paragraph"]'],
     sidebarContainerQuery: ['h2[class="top"]'],
     appendContainerQuery: [],
+  },
+  thelancet : {
+    inputQuery: [],
+    bodyQuery: ['div[class="section-paragraph"]'],
+    sidebarContainerQuery: ['h2[class="top"]'],
+    appendContainerQuery: [],
   }
 }
     // bodyQuery: ['#abstract div[role="paragraph"]'],
