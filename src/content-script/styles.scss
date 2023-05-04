@@ -100,7 +100,7 @@
 form#requestion {
   input#question {
     border-radius: 10px;
-    border-color: #8e8ea0;
+    border: 2px solid #8e8ea0;
     margin: 0px 2px 0px 2px;
     padding: 1rem;
     width: 100%;
@@ -108,6 +108,7 @@ form#requestion {
   }
 
   input#question:focus {
+    border: 2px solid #1b8f76;
     outline: none;
   }
 

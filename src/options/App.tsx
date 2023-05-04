@@ -71,7 +71,7 @@ function OptionsPage(props: { theme: Theme; onThemeChange: (theme: Theme) => voi
       <nav className="flex flex-row justify-between items-center mt-5 px-2">
         <div className="flex flex-row items-center gap-2">
           <img src={logo} className="w-10 h-10 rounded-lg" />
-          <span className="font-semibold">ArixGPT(v{getExtensionVersion()})</span>
+          <span className="font-semibold">SciGPT(v{getExtensionVersion()})</span>
         </div>
         <div className="flex flex-row gap-3">
           <a
