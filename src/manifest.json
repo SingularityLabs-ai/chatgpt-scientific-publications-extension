@@ -33,7 +33,8 @@
         "https://www.nature.com/articles/*",
         "https://www.sciencemag.org/doi/*",
         "https://www.cell.com/*",
-        "https://www.thelancet.com/journals/*"
+        "https://www.thelancet.com/journals/*",
+        "https://www.pnas.org/doi/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]
