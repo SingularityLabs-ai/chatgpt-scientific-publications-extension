@@ -24,13 +24,13 @@
 * Astrophysical Journal: "https://iopscience.iop.org/article/*"
 * ACS "https://pubs.acs.org/doi/*"
 * PLOS ONE: "https://journals.plos.org/plosone/*"
+* Journal of Biological Chemistry (JBC): "https://www.jbc.org/article/*"
 
 (To be fixed:)
 
 Science: "https://www.sciencemag.org/doi/*"
 
 
-Journal of Biological Chemistry (JBC): https://www.jbc.org/
 Annals of Internal Medicine: https://www.acpjournals.org/journal/aim
 Proceedings of the Royal Society B: Biological Sciences: https://royalsocietypublishing.org/journal/rspb
 The American Journal of Psychiatry (AJP): https://ajp.psychiatryonline.org/

@@ -67,6 +67,12 @@ export const config: Record<string, SearchEngine> = {
     sidebarContainerQuery: ['h2[class="top"]'],
     appendContainerQuery: [],
   },
+  jbc : {
+    inputQuery: [],
+    bodyQuery: ['div[class="section-paragraph"]'],
+    sidebarContainerQuery: ['div[class="section-paragraph"]'],
+    appendContainerQuery: [],
+  },
   pnas : {
     inputQuery: [],
     bodyQuery: ['#abstract'],
