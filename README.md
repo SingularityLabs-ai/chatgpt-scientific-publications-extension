@@ -27,13 +27,13 @@
 * Journal of Biological Chemistry (JBC): "https://www.jbc.org/article/*"
 * Annals of Internal Medicine: "https://www.acpjournals.org/doi/*"
 * Proceedings of the Royal Society B: Biological Sciences: "https://royalsocietypublishing.org/doi/*"
+* The American Journal of Psychiatry (AJP): "https://ajp.psychiatryonline.org/doi/*"
 
 (To be fixed:)
 
 Science: "https://www.sciencemag.org/doi/*"
 
 
-The American Journal of Psychiatry (AJP): https://ajp.psychiatryonline.org/
 Journal of Neuroscience: https://www.jneurosci.org/
 Nano Letters: https://pubs.acs.org/journal/nalefd
 Journal of Clinical Oncology: https://ascopubs.org/journal/jco
