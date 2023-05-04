@@ -216,5 +216,11 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['#ContentTab > div.widget-ArticleFulltext.widget-instance-ArticleFulltext > div > div'],
     sidebarContainerQuery: ['#ContentTab'],
     appendContainerQuery: [],
+  },
+  atsjournals : {
+    inputQuery: [],
+    bodyQuery: ['#tab-html-content'],
+    sidebarContainerQuery: ['div > div > div > article > div > ul'],
+    appendContainerQuery: [],
   }
 }

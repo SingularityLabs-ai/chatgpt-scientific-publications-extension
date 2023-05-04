@@ -42,6 +42,7 @@
 * Ahajournals: "https://www.ahajournals.org/doi/*"
 * Ametsoc: "https://journals.ametsoc.org/*"
 * Clinical Cancer Research: "https://aacrjournals.org/*"
+* Atsjournals: "https://www.atsjournals.org/doi/*"
 
 (To be fixed:)
 
@@ -55,7 +56,6 @@ Chemical Science: https://pubs.rsc.org/en/journals/journalissues/sc
 Chemical Engineering Journal: https://www.journals.elsevier.com/chemical-engineering-journal/
 Journal of Neuroscience Methods: https://www.journals.elsevier.com/journal-of-neuroscience-methods/
 Journal of Hepatology: https://www.journal-of-hepatology.eu/
-American Journal of Respiratory and Critical Care Medicine (AJRCCM): https://www.atsjournals.org/journal/ajrccm
 Annals of Surgery: https://journals.lww.com/annalsofsurgery/pages/default.aspx
 Biomaterials: https://www.journals.elsevier.com/biomaterials/
 Gut: https://gut.bmj.com/
