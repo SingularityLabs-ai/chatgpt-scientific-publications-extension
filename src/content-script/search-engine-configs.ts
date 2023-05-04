@@ -234,5 +234,12 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['#maincontent > div.viewport > div > div.layout__panel.layout__panel--primary.layout__panel--60.layout__panel--filled > section > article > div.capsule__column-wrapper > div.capsule__text > p'],
     sidebarContainerQuery: ['#maincontent > div.viewport > div > div.layout__panel.layout__panel--primary.layout__panel--filled > section > article > div.article__authors'],
     appendContainerQuery: [],
+  },
+  annalsofsurgery : {
+    inputQuery: [],
+    bodyQuery: ['#article-abstract-content1 > div'],
+    sidebarContainerQuery: ['#ArticleContainer'],
+    appendContainerQuery: [],
   }
 }
+

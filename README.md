@@ -45,6 +45,7 @@
 * Clinical Cancer Research: "https://aacrjournals.org/*"
 * Atsjournals: "https://www.atsjournals.org/doi/*"
 * RSC: "https://pubs.rsc.org/*"
+* Annals of Surgery: "https://journals.lww.com/annalsofsurgery/Abstract/*"
 
 (To be fixed:)
 
@@ -54,17 +55,12 @@ Journal of the American College of Cardiology (JACC): https://www.jacc.org/doi/
 Journal of Hepatology: https://www.journal-of-hepatology.eu/
 Diabetes: "https://diabetes.diabetesjournals.org/*"
 
-Chemical Engineering Journal: https://www.journals.elsevier.com/chemical-engineering-journal/
-Journal of Neuroscience Methods: https://www.journals.elsevier.com/journal-of-neuroscience-methods/
-Annals of Surgery: https://journals.lww.com/annalsofsurgery/pages/default.aspx
-Biomaterials: https://www.journals.elsevier.com/biomaterials/
 Gut: https://gut.bmj.com/
 Journal of Personality and Social Psychology: https://psycnet.apa.org/journals/psp/
 Journal of Virology: https://jvi.asm.org/
 Journal of the American Society of Nephrology (JASN): https://jasn.asnjournals.org/
 Journal of Nuclear Medicine: https://jnm.snmjournals.org/
 Journal of Clinical Investigation (JCI): https://www.jci.org/
-Progress in Materials Science: https://www.journals.elsevier.com/progress-in
 Journal of Investigative Dermatology: https://www.jidonline.org/
 Environmental Health Perspectives: https://ehp.niehs.nih.gov/
 
