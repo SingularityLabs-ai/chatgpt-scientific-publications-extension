@@ -192,5 +192,17 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['#pb-page-content > div > main > div.container > div > div > article > div > div > div.row.flex-wrapper > div.article__content > div.article__body.show-references > div.hlFld-Abstract > div.abstractSection.abstractInFull > p:nth-child(3)'],
     sidebarContainerQuery: ['div[class="citation"]'],
     appendContainerQuery: [],
-  }
+  },
+  jacc : {
+    inputQuery: [],
+    bodyQuery: ['#pb-page-content > div > div.page-container.jacadv > main > article > div > div.col-lg-8.article__content.has-sections > div.article__body > section.article-section.article-section__abstract > div > div:nth-child(2) > section:nth-child(2) > p:nth-child(1)'],
+    sidebarContainerQuery: ['div[class="article__keyword"]'],
+    appendContainerQuery: [],
+  },
+  ametsoc : {
+    inputQuery: [],
+    bodyQuery: ['div > div.component.component-content-item.component-content-summary.abstract_or_excerpt > div > div > section > p'],
+    sidebarContainerQuery: ['nav[class="container-tabs"]'],
+    appendContainerQuery: [],
+  },
 }

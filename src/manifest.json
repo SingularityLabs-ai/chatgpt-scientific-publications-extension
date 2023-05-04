@@ -54,7 +54,9 @@
         "https://academic.oup.com/*",
         "https://rupress.org/*",
         "https://ashpublications.org/*",
-        "https://www.ahajournals.org/doi/*"
+        "https://www.ahajournals.org/doi/*",
+        "https://www.jacc.org/doi/*",
+        "https://journals.ametsoc.org/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]

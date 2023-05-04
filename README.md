@@ -39,17 +39,17 @@
 * Rockefeller University Press: "https://rupress.org/*"
 * Ashpublications: "https://ashpublications.org/*"
 * Ahajournals: "https://www.ahajournals.org/doi/*"
+* Ametsoc: "https://journals.ametsoc.org/*"
 
 (To be fixed:)
 
 Sciencemag: "https://www.sciencemag.org/doi/*"
 Earth and Planetary Science Letters: https://www.journals.elsevier.com/earth-and-planetary-science-letters/
+Journal of the American College of Cardiology (JACC): https://www.jacc.org/doi/
 
 Journal of Geophysical Research: Solid Earth: https://agupubs.onlinelibrary.wiley.com/journal/21699356
-Journal of Climate: https://journals.ametsoc.org/jcli
 Chemical Science: https://pubs.rsc.org/en/journals/journalissues/sc
 Clinical Cancer Research: https://clincancerres.aacrjournals.org/
-Journal of the American College of Cardiology (JACC): https://www.jacc.org/
 Chemical Engineering Journal: https://www.journals.elsevier.com/chemical-engineering-journal/
 The EMBO Journal: https://www.embopress.org/journal/14602075
 Journal of Neuroscience Methods: https://www.journals.elsevier.com/journal-of-neuroscience-methods/
@@ -71,7 +71,6 @@ Journal of Ecology: https://besjournals.onlinelibrary.wiley.com/journal/13652745
 Environmental Health Perspectives: https://ehp.niehs.nih.gov/
 Journal of Geophysical Research: https://agupubs.onlinelibrary.wiley.com/journal/2156531X
 Journal of Physiology: https://physoc.onlinelibrary.wiley.com/journal/14697793
-Journal of Climate: https://journals.ametsoc.org/jcli
 
 ## Custom Prompt
 You can change the prompt.
