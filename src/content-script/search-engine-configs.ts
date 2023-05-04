@@ -43,4 +43,16 @@ export const config: Record<string, SearchEngine> = {
     sidebarContainerQuery: ['div[class="pb-dropzone"]'],
     appendContainerQuery: [],
   },
+  nature : {
+    inputQuery: [],
+    bodyQuery: ['div#Abs1-content'],
+    sidebarContainerQuery: ['#access-options'],
+    appendContainerQuery: [],
+  },
+  sciencemag : {
+    inputQuery: [],
+    bodyQuery: ['#abstract'],
+    sidebarContainerQuery: ['#editor-summary-abstract'],
+    appendContainerQuery: [],
+  }
 }

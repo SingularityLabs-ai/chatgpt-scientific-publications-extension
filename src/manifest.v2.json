@@ -28,7 +28,9 @@
         "https://www.biorxiv.org/content/*",
         "https://pubmed.ncbi.nlm.nih.gov/*",
         "https://ieeexplore.ieee.org/document/*",
-        "https://dl.acm.org/doi/*"
+        "https://dl.acm.org/doi/*",
+        "https://www.nature.com/articles/*"
+        "https://www.sciencemag.org/doi/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]
