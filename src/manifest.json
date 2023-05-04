@@ -52,7 +52,8 @@
         "https://ascopubs.org/doi/*",
         "https://onlinelibrary.wiley.com/doi/*",
         "https://academic.oup.com/*",
-        "https://rupress.org/*"
+        "https://rupress.org/*",
+        "https://ashpublications.org/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]

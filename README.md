@@ -37,18 +37,16 @@
 * Onlinelibrary Wiley: "https://onlinelibrary.wiley.com/doi/*"
 * Oxford Academic: "https://academic.oup.com/*"
 * Rockefeller University Press: "https://rupress.org/*"
+* Ashpublications: "https://ashpublications.org/*"
 
 (To be fixed:)
 
 Sciencemag: "https://www.sciencemag.org/doi/*"
 Earth and Planetary Science Letters: https://www.journals.elsevier.com/earth-and-planetary-science-letters/
 
-
-
 Journal of Geophysical Research: Solid Earth: https://agupubs.onlinelibrary.wiley.com/journal/21699356
 Journal of Climate: https://journals.ametsoc.org/jcli
 Chemical Science: https://pubs.rsc.org/en/journals/journalissues/sc
-Blood: https://ashpublications.org/blood
 Clinical Cancer Research: https://clincancerres.aacrjournals.org/
 Journal of the American College of Cardiology (JACC): https://www.jacc.org/
 Chemical Engineering Journal: https://www.journals.elsevier.com/chemical-engineering-journal/
@@ -60,7 +58,6 @@ Annals of Surgery: https://journals.lww.com/annalsofsurgery/pages/default.aspx
 Biomaterials: https://www.journals.elsevier.com/biomaterials/
 Gut: https://gut.bmj.com/
 Journal of Personality and Social Psychology: https://psycnet.apa.org/journals/psp/
-Journal of Experimental Medicine (JEM): https://rupress.org/jem
 Journal of Virology: https://jvi.asm.org/
 Chemical Communications: https://pubs.rsc.org/en/journals/journalissues/cc
 Journal of the American Society of Nephrology (JASN): https://jasn.asnjournals.org/
@@ -72,7 +69,6 @@ Diabetes: https://diabetes.diabetesjournals.org/
 Journal of Investigative Dermatology: https://www.jidonline.org/
 Journal of Ecology: https://besjournals.onlinelibrary.wiley.com/journal/13652745
 Environmental Health Perspectives: https://ehp.niehs.nih.gov/
-Journal of Biological Chemistry (JBC): https://www.jbc.org/
 Journal of Geophysical Research: https://agupubs.onlinelibrary.wiley.com/journal/2156531X
 Journal of Physiology: https://physoc.onlinelibrary.wiley.com/journal/14697793
 Journal of Climate: https://journals.ametsoc.org/jcli

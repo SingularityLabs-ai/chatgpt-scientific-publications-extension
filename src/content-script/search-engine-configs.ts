@@ -180,5 +180,11 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['section[class="abstract"]'],
     sidebarContainerQuery: ['#ContentTab'],
     appendContainerQuery: [],
+  },
+  ashpublications : {
+    inputQuery: [],
+    bodyQuery: ['section[class="abstract"]'],
+    sidebarContainerQuery: ['#ContentTab'],
+    appendContainerQuery: [],
   }
 }
