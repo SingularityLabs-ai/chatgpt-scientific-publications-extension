@@ -52,14 +52,15 @@
         "https://onlinelibrary.wiley.com/doi/*",
         "https://www.embopress.org/doi/*",
         "https://academic.oup.com/*",
-        "https://www.annualreviews.org/doi/*",
         "https://rupress.org/*",
         "https://ashpublications.org/*",
         "https://www.ahajournals.org/doi/*",
         "https://www.jacc.org/doi/*",
         "https://journals.ametsoc.org/*",
         "https://aacrjournals.org/*",
-        "https://www.atsjournals.org/doi/*"
+        "https://www.atsjournals.org/doi/*",
+        "https://www.journal-of-hepatology.eu/article/*",
+        "https://diabetes.diabetesjournals.org/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]

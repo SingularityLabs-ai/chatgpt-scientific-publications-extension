@@ -217,10 +217,16 @@ export const config: Record<string, SearchEngine> = {
     sidebarContainerQuery: ['#ContentTab'],
     appendContainerQuery: [],
   },
-  atsjournals : {
+  hepatology : {
     inputQuery: [],
-    bodyQuery: ['#tab-html-content'],
-    sidebarContainerQuery: ['div > div > div > article > div > ul'],
+    bodyQuery: ['#pb-page-content > div > div:nth-child(3) > div > div > div > main > article > div.article__body > div.container > div > div.article__sections'],
+    sidebarContainerQuery: ['h2[class="top"]'],
+    appendContainerQuery: [],
+  },
+  diabetesjournals : {
+    inputQuery: [],
+    bodyQuery: ['section > p'],
+    sidebarContainerQuery: ['#ContentColumn > div.widget-ArticleMainView.widget-instance-ArticleMainView_Article > div.content-inner-wrap > div.widget-ArticleTopInfo.widget-instance-ArticleTopInfo'],
     appendContainerQuery: [],
   }
 }

@@ -43,19 +43,20 @@
 * Ametsoc: "https://journals.ametsoc.org/*"
 * Clinical Cancer Research: "https://aacrjournals.org/*"
 * Atsjournals: "https://www.atsjournals.org/doi/*"
-
+* 
 (To be fixed:)
 
 Sciencemag: "https://www.sciencemag.org/doi/*"
 Earth and Planetary Science Letters: https://www.journals.elsevier.com/earth-and-planetary-science-letters/
 Journal of the American College of Cardiology (JACC): https://www.jacc.org/doi/
+Journal of Hepatology: https://www.journal-of-hepatology.eu/
+Diabetes: "https://diabetes.diabetesjournals.org/*"
+
 
 Journal of Geophysical Research: Solid Earth: https://agupubs.onlinelibrary.wiley.com/journal/21699356
 Chemical Science: https://pubs.rsc.org/en/journals/journalissues/sc
-
 Chemical Engineering Journal: https://www.journals.elsevier.com/chemical-engineering-journal/
 Journal of Neuroscience Methods: https://www.journals.elsevier.com/journal-of-neuroscience-methods/
-Journal of Hepatology: https://www.journal-of-hepatology.eu/
 Annals of Surgery: https://journals.lww.com/annalsofsurgery/pages/default.aspx
 Biomaterials: https://www.journals.elsevier.com/biomaterials/
 Gut: https://gut.bmj.com/
@@ -66,7 +67,6 @@ Journal of the American Society of Nephrology (JASN): https://jasn.asnjournals.o
 Journal of Nuclear Medicine: https://jnm.snmjournals.org/
 Journal of Clinical Investigation (JCI): https://www.jci.org/
 Progress in Materials Science: https://www.journals.elsevier.com/progress-in
-Diabetes: https://diabetes.diabetesjournals.org/
 Journal of Investigative Dermatology: https://www.jidonline.org/
 Journal of Ecology: https://besjournals.onlinelibrary.wiley.com/journal/13652745
 Environmental Health Perspectives: https://ehp.niehs.nih.gov/
