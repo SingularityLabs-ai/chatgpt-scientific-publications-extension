@@ -29,12 +29,13 @@
 * PLOS: "https://journals.plos.org/*"
 * Journal of Biological Chemistry (JBC): "https://www.jbc.org/article/*"
 * Annals of Internal Medicine: "https://www.acpjournals.org/doi/*"
-* Annual Reviews: "https://www.annualreviews.org/doi/*""
+* Annual Reviews: "https://www.annualreviews.org/doi/*"
 * Proceedings of the Royal Society B: Biological Sciences: "https://royalsocietypublishing.org/doi/*"
 * The American Journal of Psychiatry (AJP): "https://ajp.psychiatryonline.org/doi/*"
 * Journal of Neuroscience: "https://www.jneurosci.org/content/*"
 * Journal of Clinical Oncology: "https://ascopubs.org/doi/*"
 * Onlinelibrary Wiley: "https://onlinelibrary.wiley.com/doi/*"
+* Embopress: "https://www.embopress.org/doi/*"
 * Oxford Academic: "https://academic.oup.com/*"
 * Rockefeller University Press: "https://rupress.org/*"
 * Ashpublications: "https://ashpublications.org/*"
@@ -52,7 +53,6 @@ Journal of Geophysical Research: Solid Earth: https://agupubs.onlinelibrary.wile
 Chemical Science: https://pubs.rsc.org/en/journals/journalissues/sc
 
 Chemical Engineering Journal: https://www.journals.elsevier.com/chemical-engineering-journal/
-The EMBO Journal: https://www.embopress.org/journal/14602075
 Journal of Neuroscience Methods: https://www.journals.elsevier.com/journal-of-neuroscience-methods/
 Journal of Hepatology: https://www.journal-of-hepatology.eu/
 American Journal of Respiratory and Critical Care Medicine (AJRCCM): https://www.atsjournals.org/journal/ajrccm
