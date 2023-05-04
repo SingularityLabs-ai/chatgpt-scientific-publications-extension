@@ -9,9 +9,9 @@
 <img width="1418" alt="image" src="https://user-images.githubusercontent.com/901975/217130285-20d0bf67-e9a8-46ca-9d9d-f49b42515a7d.png">
 
 ## Avaiable Sites (TBA or TBA as a configuration feature)
-* Arxiv: "https://arxiv.org/*",
-* Bioxiv: "https://www.biorxiv.org/content/*",
-* Pubmed: "https://pubmed.ncbi.nlm.nih.gov/*",
+* Arxiv: "https://arxiv.org/*"
+* Bioxiv: "https://www.biorxiv.org/content/*"
+* Pubmed: "https://pubmed.ncbi.nlm.nih.gov/*"
 * IEEE: "https://ieeexplore.ieee.org/document/*"
 * sciencedirect: "https://www.sciencedirect.com/science/article/*"
 * ACM: "https://dl.acm.org/doi/*"
