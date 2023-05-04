@@ -51,8 +51,15 @@ export const config: Record<string, SearchEngine> = {
   },
   sciencemag : {
     inputQuery: [],
-    bodyQuery: ['#abstract'],
-    sidebarContainerQuery: ['#editor-summary-abstract'],
+    bodyQuery: ['#bodymatter'],
+    sidebarContainerQuery: ['#bodymatter'],
+    appendContainerQuery: [],
+  },
+  cell : {
+    inputQuery: [],
+    bodyQuery: ['div[class="section-paragraph"]'],
+    sidebarContainerQuery: ['h2[class="top"]'],
     appendContainerQuery: [],
   }
 }
+    // bodyQuery: ['#abstract div[role="paragraph"]'],

@@ -30,7 +30,8 @@
         "https://ieeexplore.ieee.org/document/*",
         "https://dl.acm.org/doi/*",
         "https://www.nature.com/articles/*"
-        "https://www.sciencemag.org/doi/*"
+        "https://www.sciencemag.org/doi/*",
+        "https://www.cell.com/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]

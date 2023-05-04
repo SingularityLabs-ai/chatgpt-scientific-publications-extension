@@ -15,9 +15,14 @@
 * "https://ieeexplore.ieee.org/document/*"
 * "https://dl.acm.org/doi/*"
 * Nature: "https://www.nature.com/articles/*"
+* Cell: "https://www.cell.com/*"
+
+
+(To be fixed:)
 
 Science: "https://www.sciencemag.org/doi/*"
-Cell: https://www.cell.com/
+
+
 The Lancet: https://www.thelancet.com/
 Proceedings of the National Academy of Sciences (PNAS): https://www.pnas.org/
 New England Journal of Medicine (NEJM): https://www.nejm.org/
