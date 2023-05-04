@@ -37,6 +37,12 @@ export const config: Record<string, SearchEngine> = {
     sidebarContainerQuery: ['div.u-pb-1.stats-document-abstract-publishedIn'],
     appendContainerQuery: [],
   },
+  sciencedirect : {
+    inputQuery: [],
+    bodyQuery: ['div[class="abstract author"]'],
+    sidebarContainerQuery: ['#banner'],
+    appendContainerQuery: [],
+  },
   acm: {
     inputQuery: [],
     bodyQuery: ['div[class="abstractInFull"]'],

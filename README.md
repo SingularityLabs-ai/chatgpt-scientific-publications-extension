@@ -13,6 +13,7 @@
 * Bioxiv: "https://www.biorxiv.org/content/*",
 * Pubmed: "https://pubmed.ncbi.nlm.nih.gov/*",
 * IEEE: "https://ieeexplore.ieee.org/document/*"
+* sciencedirect: "https://www.sciencedirect.com/science/article/*"
 * ACM: "https://dl.acm.org/doi/*"
 * Nature: "https://www.nature.com/articles/*"
 * Cell: "https://www.cell.com/*"
