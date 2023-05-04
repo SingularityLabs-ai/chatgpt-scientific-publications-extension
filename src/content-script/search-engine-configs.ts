@@ -138,6 +138,12 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['#abstract-1'],
     sidebarContainerQuery: ['div[class="inside"]'],
     appendContainerQuery: [],
+  },
+  ascopubs : {
+    inputQuery: [],
+    bodyQuery: ['div > div > div.publication-tabs.ja.publication-tabs-dropdown > div > div > div.tab.tab-pane.active > article'],
+    sidebarContainerQuery: ['ul[class="tab-nav"]'],
+    appendContainerQuery: [],
   }
 }
     // bodyQuery: ['#abstract div[role="paragraph"]'],

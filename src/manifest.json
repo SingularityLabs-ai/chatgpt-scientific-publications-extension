@@ -45,7 +45,8 @@
         "https://www.acpjournals.org/doi/*",
         "https://royalsocietypublishing.org/doi/*",
         "https://ajp.psychiatryonline.org/doi/*",
-        "https://www.jneurosci.org/content/*"
+        "https://www.jneurosci.org/content/*",
+        "https://ascopubs.org/doi/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]

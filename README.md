@@ -29,14 +29,13 @@
 * Proceedings of the Royal Society B: Biological Sciences: "https://royalsocietypublishing.org/doi/*"
 * The American Journal of Psychiatry (AJP): "https://ajp.psychiatryonline.org/doi/*"
 * Journal of Neuroscience: "https://www.jneurosci.org/content/*"
+* Journal of Clinical Oncology: "https://ascopubs.org/doi/*"
 
 (To be fixed:)
 
 Science: "https://www.sciencemag.org/doi/*"
 
 
-Nano Letters: https://pubs.acs.org/journal/nalefd
-Journal of Clinical Oncology: https://ascopubs.org/journal/jco
 Earth and Planetary Science Letters: https://www.journals.elsevier.com/earth-and-planetary-science-letters/
 Advanced Materials: https://onlinelibrary.wiley.com/journal/15214095
 The Lancet Infectious Diseases: https://www.thelancet.com/journals/laninf/home
