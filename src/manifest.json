@@ -37,7 +37,8 @@
         "https://www.pnas.org/doi/*",
         "https://www.nejm.org/doi/*",
         "https://jamanetwork.com/journals/jama/*",
-        "https://journals.aps.org/prl/abstract/*"
+        "https://journals.aps.org/prl/abstract/*",
+        "https://iopscience.iop.org/article/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]

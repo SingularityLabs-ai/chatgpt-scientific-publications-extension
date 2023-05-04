@@ -90,6 +90,12 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['#article-content > section.article.open.abstract > div'],
     sidebarContainerQuery: ['#article-content > section.article.open.abstract > h4'],
     appendContainerQuery: [],
+  },
+  iopscience : {
+    inputQuery: [],
+    bodyQuery: ['#page-content > div:nth-child(3) > div.article-content'],
+    sidebarContainerQuery: ['#page-content > div.article-head > h1'],
+    appendContainerQuery: [],
   }
 }
     // bodyQuery: ['#abstract div[role="paragraph"]'],
