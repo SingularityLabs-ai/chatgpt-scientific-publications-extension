@@ -34,7 +34,7 @@
 * The American Journal of Psychiatry (AJP): "https://ajp.psychiatryonline.org/doi/*"
 * Journal of Neuroscience: "https://www.jneurosci.org/content/*"
 * Journal of Clinical Oncology: "https://ascopubs.org/doi/*"
-* Onlinelibrary Wiley: "https://onlinelibrary.wiley.com/doi/*"
+* Onlinelibrary Wiley: "https://onlinelibrary.wiley.com/doi/*" , "https://*.onlinelibrary.wiley.com/doi/*"
 * Embopress: "https://www.embopress.org/doi/*"
 * Oxford Academic: "https://academic.oup.com/*"
 * Rockefeller University Press: "https://rupress.org/*"
@@ -53,7 +53,6 @@ Journal of Hepatology: https://www.journal-of-hepatology.eu/
 Diabetes: "https://diabetes.diabetesjournals.org/*"
 
 
-Journal of Geophysical Research: Solid Earth: https://agupubs.onlinelibrary.wiley.com/journal/21699356
 Chemical Science: https://pubs.rsc.org/en/journals/journalissues/sc
 Chemical Engineering Journal: https://www.journals.elsevier.com/chemical-engineering-journal/
 Journal of Neuroscience Methods: https://www.journals.elsevier.com/journal-of-neuroscience-methods/
@@ -68,10 +67,7 @@ Journal of Nuclear Medicine: https://jnm.snmjournals.org/
 Journal of Clinical Investigation (JCI): https://www.jci.org/
 Progress in Materials Science: https://www.journals.elsevier.com/progress-in
 Journal of Investigative Dermatology: https://www.jidonline.org/
-Journal of Ecology: https://besjournals.onlinelibrary.wiley.com/journal/13652745
 Environmental Health Perspectives: https://ehp.niehs.nih.gov/
-Journal of Geophysical Research: https://agupubs.onlinelibrary.wiley.com/journal/2156531X
-Journal of Physiology: https://physoc.onlinelibrary.wiley.com/journal/14697793
 
 ## Custom Prompt
 You can change the prompt.

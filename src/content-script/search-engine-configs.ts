@@ -163,9 +163,9 @@ export const config: Record<string, SearchEngine> = {
     sidebarContainerQuery: ['ul[class="tab-nav"]'],
     appendContainerQuery: [],
   },
-  onlinelibrary : {
+  onlinelibrar : {
     inputQuery: [],
-    bodyQuery: ['#section-1-en > div > p:nth-child(1)'],
+    bodyQuery: ['#section-1-en > div > p:nth-child(1), #section-1-en > div.en > section:nth-child(1) > p:nth-child(1)'],
     sidebarContainerQuery: ['#section-1-en'],
     appendContainerQuery: [],
   },
