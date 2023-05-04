@@ -56,12 +56,12 @@
 
 (To be fixed:)
 
-Sciencemag: "https://www.sciencemag.org/doi/*"
-Earth and Planetary Science Letters: https://www.journals.elsevier.com/earth-and-planetary-science-letters/
-Journal of the American College of Cardiology (JACC): https://www.jacc.org/doi/
-Journal of Hepatology: https://www.journal-of-hepatology.eu/
-Diabetes: "https://diabetes.diabetesjournals.org/*"
-Journal of Personality and Social Psychology: "https://psycnet.apa.org/record/*"
+- Sciencemag: "https://www.sciencemag.org/doi/*"
+- Earth and Planetary Science Letters: https://www.journals.elsevier.com/earth-and-planetary-science-letters/
+- Journal of the American College of Cardiology (JACC): https://www.jacc.org/doi/
+- Journal of Hepatology: https://www.journal-of-hepatology.eu/
+- Diabetes: "https://diabetes.diabetesjournals.org/*"
+- Journal of Personality and Social Psychology: "https://psycnet.apa.org/record/*"
 
 
 ## Custom Prompt
