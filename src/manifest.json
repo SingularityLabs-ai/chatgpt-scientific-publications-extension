@@ -53,7 +53,8 @@
         "https://onlinelibrary.wiley.com/doi/*",
         "https://academic.oup.com/*",
         "https://rupress.org/*",
-        "https://ashpublications.org/*"
+        "https://ashpublications.org/*",
+        "https://www.ahajournals.org/doi/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]

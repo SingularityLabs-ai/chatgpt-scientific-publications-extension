@@ -38,6 +38,7 @@
 * Oxford Academic: "https://academic.oup.com/*"
 * Rockefeller University Press: "https://rupress.org/*"
 * Ashpublications: "https://ashpublications.org/*"
+* Ahajournals: "https://www.ahajournals.org/doi/*"
 
 (To be fixed:)
 
@@ -62,7 +63,6 @@ Journal of Virology: https://jvi.asm.org/
 Chemical Communications: https://pubs.rsc.org/en/journals/journalissues/cc
 Journal of the American Society of Nephrology (JASN): https://jasn.asnjournals.org/
 Journal of Nuclear Medicine: https://jnm.snmjournals.org/
-Hypertension: https://www.ahajournals.org/journal/hyp
 Journal of Clinical Investigation (JCI): https://www.jci.org/
 Progress in Materials Science: https://www.journals.elsevier.com/progress-in
 Diabetes: https://diabetes.diabetesjournals.org/

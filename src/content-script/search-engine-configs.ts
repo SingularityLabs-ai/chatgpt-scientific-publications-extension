@@ -186,5 +186,11 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['section[class="abstract"]'],
     sidebarContainerQuery: ['#ContentTab'],
     appendContainerQuery: [],
+  },
+  ahajournals : {
+    inputQuery: [],
+    bodyQuery: ['#pb-page-content > div > main > div.container > div > div > article > div > div > div.row.flex-wrapper > div.article__content > div.article__body.show-references > div.hlFld-Abstract > div.abstractSection.abstractInFull > p:nth-child(3)'],
+    sidebarContainerQuery: ['div[class="citation"]'],
+    appendContainerQuery: [],
   }
 }

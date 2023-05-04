@@ -53,7 +53,8 @@
         "https://academic.oup.com/*",
         "https://www.annualreviews.org/doi/*",
         "https://rupress.org/*",
-        "https://ashpublications.org/*"
+        "https://ashpublications.org/*",
+        "https://www.ahajournals.org/doi/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]
