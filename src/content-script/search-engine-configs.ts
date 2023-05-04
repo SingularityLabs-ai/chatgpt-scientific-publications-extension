@@ -240,6 +240,12 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['#article-abstract-content1 > div'],
     sidebarContainerQuery: ['#ArticleContainer'],
     appendContainerQuery: [],
+  },
+  gut : {
+    inputQuery: [],
+    bodyQuery: ['#content-block > div.article'],
+    sidebarContainerQuery: ['ol[class="corresp-list"]'],
+    appendContainerQuery: [],
   }
 }
 

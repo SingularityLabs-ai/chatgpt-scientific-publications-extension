@@ -46,6 +46,7 @@
 * Atsjournals: "https://www.atsjournals.org/doi/*"
 * RSC: "https://pubs.rsc.org/*"
 * Annals of Surgery: "https://journals.lww.com/annalsofsurgery/Abstract/*"
+* Gut: "https://gut.bmj.com/*"
 
 (To be fixed:)
 
@@ -55,7 +56,6 @@ Journal of the American College of Cardiology (JACC): https://www.jacc.org/doi/
 Journal of Hepatology: https://www.journal-of-hepatology.eu/
 Diabetes: "https://diabetes.diabetesjournals.org/*"
 
-Gut: https://gut.bmj.com/
 Journal of Personality and Social Psychology: https://psycnet.apa.org/journals/psp/
 Journal of Virology: https://jvi.asm.org/
 Journal of the American Society of Nephrology (JASN): https://jasn.asnjournals.org/

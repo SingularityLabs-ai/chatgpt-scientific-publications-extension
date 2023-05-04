@@ -64,7 +64,8 @@
         "https://www.journal-of-hepatology.eu/article/*",
         "https://diabetes.diabetesjournals.org/*",
         "https://pubs.rsc.org/*",
-        "https://journals.lww.com/annalsofsurgery/Abstract/*"
+        "https://journals.lww.com/annalsofsurgery/Abstract/*",
+        "https://gut.bmj.com/content/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]
