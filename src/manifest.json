@@ -71,7 +71,8 @@
         "https://ehp.niehs.nih.gov/doi/*",
         "https://www.jidonline.org/article/*",
         "https://www.jci.org/articles/view/*",
-        "https://journals.asm.org/doi/*"
+        "https://journals.asm.org/doi/*",
+        "https://psycnet.apa.org/record/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]

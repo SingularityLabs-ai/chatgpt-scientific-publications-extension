@@ -61,8 +61,8 @@ Earth and Planetary Science Letters: https://www.journals.elsevier.com/earth-and
 Journal of the American College of Cardiology (JACC): https://www.jacc.org/doi/
 Journal of Hepatology: https://www.journal-of-hepatology.eu/
 Diabetes: "https://diabetes.diabetesjournals.org/*"
+Journal of Personality and Social Psychology: "https://psycnet.apa.org/record/*"
 
-Journal of Personality and Social Psychology: https://psycnet.apa.org/journals/psp/
 
 ## Custom Prompt
 You can change the prompt.

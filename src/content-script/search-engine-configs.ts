@@ -282,6 +282,12 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['section#abstract'],
     sidebarContainerQuery: ['h2[property="name"]'],
     appendContainerQuery: [],
+  },
+  psycnet : {
+    inputQuery: [],
+    bodyQuery: ['body > app > main > recorddisplay > div > div > div > div:nth-child(5) > div > abstract > div#record > div > p'],
+    sidebarContainerQuery: ['body > app > main > recorddisplay > div > div > div > div:nth-child(5) > div > citation'],
+    appendContainerQuery: [],
   }
 }
 
