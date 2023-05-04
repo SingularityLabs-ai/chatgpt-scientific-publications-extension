@@ -28,6 +28,7 @@
 * PLOS: "https://journals.plos.org/*"
 * Journal of Biological Chemistry (JBC): "https://www.jbc.org/article/*"
 * Annals of Internal Medicine: "https://www.acpjournals.org/doi/*"
+* Annual Reviews: "https://www.annualreviews.org/doi/*""
 * Proceedings of the Royal Society B: Biological Sciences: "https://royalsocietypublishing.org/doi/*"
 * The American Journal of Psychiatry (AJP): "https://ajp.psychiatryonline.org/doi/*"
 * Journal of Neuroscience: "https://www.jneurosci.org/content/*"
@@ -41,7 +42,7 @@ Sciencemag: "https://www.sciencemag.org/doi/*"
 Earth and Planetary Science Letters: https://www.journals.elsevier.com/earth-and-planetary-science-letters/
 
 
-* Annual Review of Biochemistry: https://www.annualreviews.org/journal/biochem
+
 Journal of Geophysical Research: Solid Earth: https://agupubs.onlinelibrary.wiley.com/journal/21699356
 Journal of Climate: https://journals.ametsoc.org/jcli
 Chemical Science: https://pubs.rsc.org/en/journals/journalissues/sc
@@ -57,7 +58,6 @@ Journal of Hepatology: https://www.journal-of-hepatology.eu/
 American Journal of Respiratory and Critical Care Medicine (AJRCCM): https://www.atsjournals.org/journal/ajrccm
 Annals of Surgery: https://journals.lww.com/annalsofsurgery/pages/default.aspx
 Biomaterials: https://www.journals.elsevier.com/biomaterials/
-Annual Review of Astronomy and Astrophysics: https://www.annualreviews.org/journal/astro
 Gut: https://gut.bmj.com/
 Journal of Personality and Social Psychology: https://psycnet.apa.org/journals/psp/
 Journal of Experimental Medicine (JEM): https://rupress.org/jem

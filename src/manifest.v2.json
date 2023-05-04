@@ -43,12 +43,14 @@
         "https://pubs.acs.org/doi/*",
         "https://journals.plos.org/*",
         "https://www.acpjournals.org/doi/*",
+        "https://www.annualreviews.org/doi/*",
         "https://royalsocietypublishing.org/doi/*",
         "https://ajp.psychiatryonline.org/doi/*",
         "https://www.jneurosci.org/content/*",
         "https://ascopubs.org/doi/*",
         "https://onlinelibrary.wiley.com/doi/*",
-        "https://academic.oup.com/*"
+        "https://academic.oup.com/*",
+        "https://www.annualreviews.org/doi/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]
