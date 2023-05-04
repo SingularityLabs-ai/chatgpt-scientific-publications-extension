@@ -41,7 +41,8 @@
         "https://journals.aps.org/prl/abstract/*",
         "https://iopscience.iop.org/article/*",
         "https://pubs.acs.org/doi/*",
-        "https://journals.plos.org/plosone/*"
+        "https://journals.plos.org/plosone/*",
+        "https://www.acpjournals.org/doi/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]

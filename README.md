@@ -25,13 +25,13 @@
 * ACS "https://pubs.acs.org/doi/*"
 * PLOS ONE: "https://journals.plos.org/plosone/*"
 * Journal of Biological Chemistry (JBC): "https://www.jbc.org/article/*"
+* Annals of Internal Medicine: "https://www.acpjournals.org/doi/*"
 
 (To be fixed:)
 
 Science: "https://www.sciencemag.org/doi/*"
 
 
-Annals of Internal Medicine: https://www.acpjournals.org/journal/aim
 Proceedings of the Royal Society B: Biological Sciences: https://royalsocietypublishing.org/journal/rspb
 The American Journal of Psychiatry (AJP): https://ajp.psychiatryonline.org/
 Journal of Neuroscience: https://www.jneurosci.org/

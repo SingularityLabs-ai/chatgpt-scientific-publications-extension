@@ -114,6 +114,12 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['div[class="abstract-content"]'],
     sidebarContainerQuery: ['#artText'],
     appendContainerQuery: [],
+  },
+  acpjournals : {
+    inputQuery: [],
+    bodyQuery: ['#pb-page-content > div > main > article > div > div.col-sm-12.col-md-8.article__content > div.article__body > div.hlFld-Fulltext'],
+    sidebarContainerQuery: ['#pb-page-content > div > main > article'],
+    appendContainerQuery: [],
   }
 }
     // bodyQuery: ['#abstract div[role="paragraph"]'],
