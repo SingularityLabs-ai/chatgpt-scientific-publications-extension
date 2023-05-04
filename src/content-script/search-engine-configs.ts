@@ -228,5 +228,11 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['section > p'],
     sidebarContainerQuery: ['#ContentColumn > div.widget-ArticleMainView.widget-instance-ArticleMainView_Article > div.content-inner-wrap > div.widget-ArticleTopInfo.widget-instance-ArticleTopInfo'],
     appendContainerQuery: [],
+  },
+  rsc : {
+    inputQuery: [],
+    bodyQuery: ['#maincontent > div.viewport > div > div.layout__panel.layout__panel--primary.layout__panel--60.layout__panel--filled > section > article > div.capsule__column-wrapper > div.capsule__text > p'],
+    sidebarContainerQuery: ['#maincontent > div.viewport > div > div.layout__panel.layout__panel--primary.layout__panel--filled > section > article > div.article__authors'],
+    appendContainerQuery: [],
   }
 }

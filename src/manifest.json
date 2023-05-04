@@ -62,7 +62,8 @@
         "https://aacrjournals.org/*",
         "https://www.atsjournals.org/doi/*",
         "https://www.journal-of-hepatology.eu/article/*",
-        "https://diabetes.diabetesjournals.org/*"
+        "https://diabetes.diabetesjournals.org/*",
+        "https://pubs.rsc.org/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]
