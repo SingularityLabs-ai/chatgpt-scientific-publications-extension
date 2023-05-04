@@ -72,6 +72,12 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['#abstract'],
     sidebarContainerQuery: ['#executive-summary-abstract'],
     appendContainerQuery: [],
+  },
+  nejm : {
+    inputQuery: [],
+    bodyQuery: ['#article_body'],
+    sidebarContainerQuery: ['#article_body > h2'],
+    appendContainerQuery: [],
   }
 }
     // bodyQuery: ['#abstract div[role="paragraph"]'],

@@ -34,7 +34,8 @@
         "https://www.sciencemag.org/doi/*",
         "https://www.cell.com/*",
         "https://www.thelancet.com/journals/*",
-        "https://www.pnas.org/doi/*"
+        "https://www.pnas.org/doi/*",
+        "https://www.nejm.org/doi/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]
