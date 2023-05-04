@@ -74,7 +74,12 @@ export async function requeryMount(question: string, index: number) {
 }
 
 const siteRegex = new RegExp(Object.keys(config).join('|'))
-const siteName = location.hostname.match(siteRegex)![0]
+let siteName;
+try {
+   siteName = location.hostname.match(siteRegex)![0]
+} catch (error) {
+   siteName = location.pathname.match(siteRegex)![0]
+}
 const siteConfig = config[siteName]
 
 async function run() {

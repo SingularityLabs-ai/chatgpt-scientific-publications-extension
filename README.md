@@ -20,6 +20,7 @@
 * Proceedings of the National Academy of Sciences (PNAS): "https://www.pnas.org/doi/*"
 * New England Journal of Medicine (NEJM): "https://www.nejm.org/doi/"
 * JAMA: The Journal of the American Medical Association: "https://jamanetwork.com/journals/jama/*"
+* Physical Review Letters (PRL): "https://journals.aps.org/prl/abstract/*"
 
 
 (To be fixed:)
@@ -27,7 +28,6 @@
 Science: "https://www.sciencemag.org/doi/*"
 
 
-Physical Review Letters (PRL): https://journals.aps.org/prl/
 Astrophysical Journal: https://iopscience.iop.org/journal/0004-637X
 Chemical Reviews: https://pubs.acs.org/journal/chreay
 Nature Communications: https://www.nature.com/ncomms/

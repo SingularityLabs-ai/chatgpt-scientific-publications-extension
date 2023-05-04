@@ -84,6 +84,12 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['div[class="abstract-content"]'],
     sidebarContainerQuery: ['#webform > section.master-main > div.content.pb0 > div.article-content'],
     appendContainerQuery: [],
+  },
+  prl : {
+    inputQuery: [],
+    bodyQuery: ['#article-content > section.article.open.abstract > div'],
+    sidebarContainerQuery: ['#article-content > section.article.open.abstract > h4'],
+    appendContainerQuery: [],
   }
 }
     // bodyQuery: ['#abstract div[role="paragraph"]'],

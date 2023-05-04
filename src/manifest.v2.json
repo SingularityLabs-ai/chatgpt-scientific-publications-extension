@@ -35,7 +35,8 @@
         "https://www.thelancet.com/journals/*",
         "https://www.pnas.org/doi/*",
         "https://www.nejm.org/doi/*",
-        "https://jamanetwork.com/journals/jama/*"
+        "https://jamanetwork.com/journals/jama/*",
+        "https://journals.aps.org/prl/abstract/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]
