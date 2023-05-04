@@ -68,7 +68,8 @@
         "https://gut.bmj.com/content/*",
         "https://jnm.snmjournals.org/content/*",
         "https://ehp.niehs.nih.gov/doi/*",
-        "https://www.jidonline.org/article/*"
+        "https://www.jidonline.org/article/*",
+        "https://www.jci.org/articles/view/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]

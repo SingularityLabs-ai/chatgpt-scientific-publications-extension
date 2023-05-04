@@ -264,6 +264,12 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['#sec1 > div'],
     sidebarContainerQuery: ['section#sec1'],
     appendContainerQuery: [],
+  },
+  jci : {
+    inputQuery: [],
+    bodyQuery: ['#section-abstract > p'],
+    sidebarContainerQuery: ['h1[class="article-title"]'],
+    appendContainerQuery: [],
   }
 }
 

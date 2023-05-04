@@ -50,6 +50,7 @@
 * Journal of Nuclear Medicine: "https://jnm.snmjournals.org/content/*"
 * Environmental Health Perspectives: "https://ehp.niehs.nih.gov/doi/*"
 * Journal of Investigative Dermatology: "https://www.jidonline.org/article/*"
+* Journal of Clinical Investigation (JCI): "https://www.jci.org/articles/view/*"
 
 (To be fixed:)
 
@@ -62,7 +63,6 @@ Diabetes: "https://diabetes.diabetesjournals.org/*"
 Journal of Personality and Social Psychology: https://psycnet.apa.org/journals/psp/
 Journal of Virology: https://jvi.asm.org/
 Journal of the American Society of Nephrology (JASN): https://jasn.asnjournals.org/
-Journal of Clinical Investigation (JCI): https://www.jci.org/
 
 ## Custom Prompt
 You can change the prompt.
