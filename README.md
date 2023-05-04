@@ -19,6 +19,7 @@
 * Nature: "https://www.nature.com/articles/*"
 * Cell: "https://www.cell.com/*"
 * The Lancet: "https://www.thelancet.com/journals/*"
+* Journal of Allergy and Clinical Immunology: "https://www.jacionline.org/article/*"
 * Proceedings of the National Academy of Sciences (PNAS): "https://www.pnas.org/doi/*"
 * New England Journal of Medicine (NEJM): "https://www.nejm.org/doi/"
 * JAMA: The Journal of the American Medical Association: "https://jamanetwork.com/journals/jama/*"
@@ -50,7 +51,6 @@ Blood: https://ashpublications.org/blood
 Journal of Cell Biology: https://rupress.org/jcb
 Clinical Cancer Research: https://clincancerres.aacrjournals.org/
 Journal of the American College of Cardiology (JACC): https://www.jacc.org/
-Journal of Allergy and Clinical Immunology: https://www.jacionline.org/
 Chemical Engineering Journal: https://www.journals.elsevier.com/chemical-engineering-journal/
 The EMBO Journal: https://www.embopress.org/journal/14602075
 Journal of Neuroscience Methods: https://www.journals.elsevier.com/journal-of-neuroscience-methods/

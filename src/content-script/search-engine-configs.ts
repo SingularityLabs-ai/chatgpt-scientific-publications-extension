@@ -73,6 +73,12 @@ export const config: Record<string, SearchEngine> = {
     sidebarContainerQuery: ['h2[class="top"]'],
     appendContainerQuery: [],
   },
+  jacionline : {
+    inputQuery: [],
+    bodyQuery: ['div[class="section-paragraph"]'],
+    sidebarContainerQuery: ['h2[class="top"]'],
+    appendContainerQuery: [],
+  },
   jbc : {
     inputQuery: [],
     bodyQuery: ['div[class="section-paragraph"]'],
