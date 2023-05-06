@@ -39,7 +39,7 @@ export const Prompt =
  Finally, provide 3-5 suggestions for related topics or future research directions \
  based on the content of the paper.\
  If applicable, list at least 5 relevant references from the field of study of the paper.\
- Here is the paper. If the last sentence provided is incomplete just ignore if for summarizing :\
+ Here is the paper. If the last sentence provided is incomplete just ignore it for summarizing :\
  '
 
 export interface SitePrompt {
