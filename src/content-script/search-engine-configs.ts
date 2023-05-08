@@ -294,6 +294,18 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['#main-content > div > div > div.row.LayoutGutters > div > div > div:nth-child(1) > div.article-content > div.abstract-text > div.abstract'],
     sidebarContainerQuery: ['div[class="abstract-text"]'],
     appendContainerQuery: [],
+  },
+  elifesciences : {
+    inputQuery: [],
+    bodyQuery: ['div[class="article-section__body"]'],
+    sidebarContainerQuery: ['div[class="authors"]'],
+    appendContainerQuery: [],
+  },
+  scholar: {
+    inputQuery: [],
+    bodyQuery: ['#gsc_oci_descr'],
+    sidebarContainerQuery: ['#gsc_oci_title_wrapper'],
+    appendContainerQuery: [],
   }
 }
 

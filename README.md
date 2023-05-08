@@ -54,6 +54,8 @@
 * Journal of Clinical Investigation (JCI): "https://www.jci.org/articles/view/*"
 * American Society for Microbiology (AMS): "https://journals.asm.org/doi/*"
 * Chemrxiv: "https://chemrxiv.org/*"
+* Elifesciences: "https://elifesciences.org/articles/*"
+* Google Scholar: "https://scholar.google.com/*"
 
 (To be fixed:)
 

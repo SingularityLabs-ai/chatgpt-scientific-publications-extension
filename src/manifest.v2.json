@@ -72,7 +72,9 @@
         "https://www.jci.org/articles/view/*",
         "https://journals.asm.org/doi/*",
         "https://psycnet.apa.org/record/*",
-        "https://chemrxiv.org/*"
+        "https://chemrxiv.org/*",
+        "https://elifesciences.org/articles/*",
+        "https://scholar.google.com/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]
