@@ -53,6 +53,7 @@
 * Journal of Investigative Dermatology: "https://www.jidonline.org/article/*"
 * Journal of Clinical Investigation (JCI): "https://www.jci.org/articles/view/*"
 * American Society for Microbiology (AMS): "https://journals.asm.org/doi/*"
+* Chemrxiv: "https://chemrxiv.org/*"
 
 (To be fixed:)
 

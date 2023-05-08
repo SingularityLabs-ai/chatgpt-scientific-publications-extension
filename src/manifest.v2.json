@@ -71,7 +71,8 @@
         "https://www.jidonline.org/article/*",
         "https://www.jci.org/articles/view/*",
         "https://journals.asm.org/doi/*",
-        "https://psycnet.apa.org/record/*"
+        "https://psycnet.apa.org/record/*",
+        "https://chemrxiv.org/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]

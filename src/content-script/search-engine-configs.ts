@@ -288,6 +288,12 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['body > app > main > recorddisplay > div > div > div > div:nth-child(5) > div > abstract > div#record > div > p'],
     sidebarContainerQuery: ['body > app > main > recorddisplay > div > div > div > div:nth-child(5) > div > citation'],
     appendContainerQuery: [],
+  },
+  chemrxiv : {
+    inputQuery: [],
+    bodyQuery: ['#main-content > div > div > div.row.LayoutGutters > div > div > div:nth-child(1) > div.article-content > div.abstract-text > div.abstract'],
+    sidebarContainerQuery: ['div[class="abstract-text"]'],
+    appendContainerQuery: [],
   }
 }
 
