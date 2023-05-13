@@ -6,7 +6,7 @@ import Browser from 'webextension-polyfill'
 interface Props {
   messageId: string
   conversationId: string
-  answerText: string
+  latestAnswerText: string
 }
 
 function ChatGPTFeedback(props: Props) {
@@ -46,9 +46,9 @@ function ChatGPTFeedback(props: Props) {
   }, [action, props.conversationId, props.messageId])
 
   const clickCopyToClipboard = useCallback(async () => {
-    await navigator.clipboard.writeText(props.answerText)
+    await navigator.clipboard.writeText(props.latestAnswerText)
     setCopied(true)
-  }, [props.answerText])
+  }, [props.latestAnswerText])
 
   useEffect(() => {
     if (copied) {
