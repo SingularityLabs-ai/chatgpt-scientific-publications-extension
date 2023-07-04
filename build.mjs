@@ -27,6 +27,7 @@ async function runEsbuild() {
     outdir: outdir,
     treeShaking: true,
     minify: true,
+    drop: ['console', 'debugger'],
     legalComments: 'none',
     define: {
       'process.env.NODE_ENV': '"production"',
