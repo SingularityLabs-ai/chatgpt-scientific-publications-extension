@@ -37,7 +37,7 @@ export const config: Record<string, SearchEngine> = {
     sidebarContainerQuery: ['div.u-pb-1.stats-document-abstract-publishedIn'],
     appendContainerQuery: [],
   },
-  sciencedirect : {
+  sciencedirect: {
     inputQuery: [],
     bodyQuery: ['div[class="abstract author"]'],
     sidebarContainerQuery: ['#banner'],
@@ -49,253 +49,297 @@ export const config: Record<string, SearchEngine> = {
     sidebarContainerQuery: ['div[class="pb-dropzone"]'],
     appendContainerQuery: [],
   },
-  nature : {
+  nature: {
     inputQuery: [],
     bodyQuery: ['div#Abs1-content'],
-    sidebarContainerQuery: ['#access-options'],
+    sidebarContainerQuery: ['div#Abs1-content'],
     appendContainerQuery: [],
   },
-  sciencemag : {
+  sciencemag: {
     inputQuery: [],
     bodyQuery: ['#bodymatter'],
     sidebarContainerQuery: ['#bodymatter'],
     appendContainerQuery: [],
   },
-  cell : {
+  cell: {
     inputQuery: [],
     bodyQuery: ['div[class="section-paragraph"]'],
     sidebarContainerQuery: ['h2[class="top"]'],
     appendContainerQuery: [],
   },
-  thelancet : {
+  thelancet: {
     inputQuery: [],
     bodyQuery: ['div[class="section-paragraph"]'],
     sidebarContainerQuery: ['h2[class="top"]'],
     appendContainerQuery: [],
   },
-  jacionline : {
+  jacionline: {
     inputQuery: [],
     bodyQuery: ['div[class="section-paragraph"]'],
     sidebarContainerQuery: ['h2[class="top"]'],
     appendContainerQuery: [],
   },
-  jbc : {
+  jbc: {
     inputQuery: [],
     bodyQuery: ['div[class="section-paragraph"]'],
     sidebarContainerQuery: ['div[class="section-paragraph"]'],
     appendContainerQuery: [],
   },
-  pnas : {
+  pnas: {
     inputQuery: [],
     bodyQuery: ['#abstract'],
     sidebarContainerQuery: ['#executive-summary-abstract'],
     appendContainerQuery: [],
   },
-  nejm : {
+  nejm: {
     inputQuery: [],
     bodyQuery: ['#article_body'],
     sidebarContainerQuery: ['#article_body > h2'],
     appendContainerQuery: [],
   },
-  jama : {
+  jama: {
     inputQuery: [],
     bodyQuery: ['div[class="abstract-content"]'],
-    sidebarContainerQuery: ['#webform > section.master-main > div.content.pb0 > div.article-content'],
+    sidebarContainerQuery: [
+      '#webform > section.master-main > div.content.pb0 > div.article-content',
+    ],
     appendContainerQuery: [],
   },
-  prl : {
+  prl: {
     inputQuery: [],
     bodyQuery: ['#article-content > section.article.open.abstract > div'],
     sidebarContainerQuery: ['#article-content > section.article.open.abstract > h4'],
     appendContainerQuery: [],
   },
-  iopscience : {
+  iopscience: {
     inputQuery: [],
     bodyQuery: ['#page-content > div:nth-child(3) > div.article-content'],
     sidebarContainerQuery: ['#page-content > div.article-head > h1'],
     appendContainerQuery: [],
   },
-  acs : {
+  acs: {
     inputQuery: [],
     bodyQuery: ['#abstractBox'],
     sidebarContainerQuery: ['#Abstract'],
     appendContainerQuery: [],
   },
-  plos : {
+  plos: {
     inputQuery: [],
     bodyQuery: ['div[class="abstract-content"]'],
     sidebarContainerQuery: ['#artText'],
     appendContainerQuery: [],
   },
-  acpjournals : {
+  acpjournals: {
     inputQuery: [],
-    bodyQuery: ['#pb-page-content > div > main > article > div > div.col-sm-12.col-md-8.article__content > div.article__body > div.hlFld-Fulltext'],
+    bodyQuery: [
+      '#pb-page-content > div > main > article > div > div.col-sm-12.col-md-8.article__content > div.article__body > div.hlFld-Fulltext',
+    ],
     sidebarContainerQuery: ['#pb-page-content > div > main > article'],
     appendContainerQuery: [],
   },
-  annualreviews : {
+  annualreviews: {
     inputQuery: [],
-    bodyQuery: ['#main-content > div > div > section > article > div.row.inner-columns > div > div.hlFld-Abstract > div'],
+    bodyQuery: [
+      '#main-content > div > div > section > article > div.row.inner-columns > div > div.hlFld-Abstract > div',
+    ],
     sidebarContainerQuery: ['#section-1'],
     appendContainerQuery: [],
   },
-  royalsocietypublishing : {
+  royalsocietypublishing: {
     inputQuery: [],
-    bodyQuery: ['#pb-page-content > div > main > div.container > div > div > article > div > div.mobile-gutters > div > div.article__content > div.article__body > div > div > p'],
+    bodyQuery: [
+      '#pb-page-content > div > main > div.container > div > div > article > div > div.mobile-gutters > div > div.article__content > div.article__body > div > div > p',
+    ],
     sidebarContainerQuery: ['div[class="epub-section"]'],
     appendContainerQuery: [],
   },
-  ajp : {
+  ajp: {
     inputQuery: [],
-    bodyQuery: ['#pb-page-content > div > div:nth-child(2) > div > main > div.container > div > div > article > div > div.article__content > div.article__body > div.hlFld-Fulltext > p:nth-child(1)'],
+    bodyQuery: [
+      '#pb-page-content > div > div:nth-child(2) > div > main > div.container > div > div > article > div > div.article__content > div.article__body > div.hlFld-Fulltext > p:nth-child(1)',
+    ],
     sidebarContainerQuery: ['div[class="epub-section"]'],
     appendContainerQuery: [],
   },
-  jneurosci : {
+  jneurosci: {
     inputQuery: [],
     bodyQuery: ['#abstract-1'],
     sidebarContainerQuery: ['div[class="inside"]'],
     appendContainerQuery: [],
   },
-  ascopubs : {
+  ascopubs: {
     inputQuery: [],
-    bodyQuery: ['div > div > div.publication-tabs.ja.publication-tabs-dropdown > div > div > div.tab.tab-pane.active > article'],
+    bodyQuery: [
+      'div > div > div.publication-tabs.ja.publication-tabs-dropdown > div > div > div.tab.tab-pane.active > article',
+    ],
     sidebarContainerQuery: ['ul[class="tab-nav"]'],
     appendContainerQuery: [],
   },
-  onlinelibrar : {
+  onlinelibrar: {
     inputQuery: [],
-    bodyQuery: ['#section-1-en > div > p:nth-child(1), #section-1-en > div.en > section:nth-child(1) > p:nth-child(1)'],
+    bodyQuery: [
+      '#section-1-en > div > p:nth-child(1), #section-1-en > div.en > section:nth-child(1) > p:nth-child(1)',
+    ],
     sidebarContainerQuery: ['#section-1-en'],
     appendContainerQuery: [],
   },
-  embopress : {
+  embopress: {
     inputQuery: [],
     bodyQuery: ['#section-1-en > div > p:nth-child(1)'],
     sidebarContainerQuery: ['#section-1-en'],
     appendContainerQuery: [],
   },
-  academic : {
+  academic: {
     inputQuery: [],
-    bodyQuery: ['#ContentTab > div.widget.widget-ArticleFulltext.widget-instance-OUP_Article_FullText_Widget > div > div > section:nth-child(2)'],
+    bodyQuery: [
+      '#ContentTab > div.widget.widget-ArticleFulltext.widget-instance-OUP_Article_FullText_Widget > div > div > section:nth-child(2)',
+    ],
     sidebarContainerQuery: ['#ContentTab'],
     appendContainerQuery: [],
   },
-  rupress : {
+  rupress: {
     inputQuery: [],
     bodyQuery: ['section[class="abstract"]'],
     sidebarContainerQuery: ['#ContentTab'],
     appendContainerQuery: [],
   },
-  ashpublications : {
+  ashpublications: {
     inputQuery: [],
     bodyQuery: ['section[class="abstract"]'],
     sidebarContainerQuery: ['#ContentTab'],
     appendContainerQuery: [],
   },
-  ahajournals : {
+  ahajournals: {
     inputQuery: [],
-    bodyQuery: ['#pb-page-content > div > main > div.container > div > div > article > div > div > div.row.flex-wrapper > div.article__content > div.article__body.show-references > div.hlFld-Abstract > div.abstractSection.abstractInFull > p:nth-child(3)'],
+    bodyQuery: [
+      '#pb-page-content > div > main > div.container > div > div > article > div > div > div.row.flex-wrapper > div.article__content > div.article__body.show-references > div.hlFld-Abstract > div.abstractSection.abstractInFull > p:nth-child(3)',
+    ],
     sidebarContainerQuery: ['div[class="citation"]'],
     appendContainerQuery: [],
   },
-  jacc : {
+  jacc: {
     inputQuery: [],
-    bodyQuery: ['#pb-page-content > div > div.page-container.jacadv > main > article > div > div.col-lg-8.article__content.has-sections > div.article__body > section.article-section.article-section__abstract > div > div:nth-child(2) > section:nth-child(2) > p:nth-child(1)'],
+    bodyQuery: [
+      '#pb-page-content > div > div.page-container.jacadv > main > article > div > div.col-lg-8.article__content.has-sections > div.article__body > section.article-section.article-section__abstract > div > div:nth-child(2) > section:nth-child(2) > p:nth-child(1)',
+    ],
     sidebarContainerQuery: ['div[class="article__keyword"]'],
     appendContainerQuery: [],
   },
-  ametsoc : {
+  ametsoc: {
     inputQuery: [],
-    bodyQuery: ['div > div.component.component-content-item.component-content-summary.abstract_or_excerpt > div > div > section > p'],
+    bodyQuery: [
+      'div > div.component.component-content-item.component-content-summary.abstract_or_excerpt > div > div > section > p',
+    ],
     sidebarContainerQuery: ['nav[class="container-tabs"]'],
     appendContainerQuery: [],
   },
-  aacrjournals : {
+  aacrjournals: {
     inputQuery: [],
-    bodyQuery: ['#ContentTab > div.widget-ArticleFulltext.widget-instance-ArticleFulltext > div > div'],
+    bodyQuery: [
+      '#ContentTab > div.widget-ArticleFulltext.widget-instance-ArticleFulltext > div > div',
+    ],
     sidebarContainerQuery: ['#ContentTab'],
     appendContainerQuery: [],
   },
-  hepatology : {
+  hepatology: {
     inputQuery: [],
-    bodyQuery: ['#pb-page-content > div > div:nth-child(3) > div > div > div > main > article > div.article__body > div.container > div > div.article__sections'],
+    bodyQuery: [
+      '#pb-page-content > div > div:nth-child(3) > div > div > div > main > article > div.article__body > div.container > div > div.article__sections',
+    ],
     sidebarContainerQuery: ['h2[class="top"]'],
     appendContainerQuery: [],
   },
-  diabetesjournals : {
+  diabetesjournals: {
     inputQuery: [],
     bodyQuery: ['section > p'],
-    sidebarContainerQuery: ['#ContentColumn > div.widget-ArticleMainView.widget-instance-ArticleMainView_Article > div.content-inner-wrap > div.widget-ArticleTopInfo.widget-instance-ArticleTopInfo'],
+    sidebarContainerQuery: [
+      '#ContentColumn > div.widget-ArticleMainView.widget-instance-ArticleMainView_Article > div.content-inner-wrap > div.widget-ArticleTopInfo.widget-instance-ArticleTopInfo',
+    ],
     appendContainerQuery: [],
   },
-  rsc : {
+  rsc: {
     inputQuery: [],
-    bodyQuery: ['#maincontent > div.viewport > div > div.layout__panel.layout__panel--primary.layout__panel--60.layout__panel--filled > section > article > div.capsule__column-wrapper > div.capsule__text > p'],
-    sidebarContainerQuery: ['#maincontent > div.viewport > div > div.layout__panel.layout__panel--primary.layout__panel--filled > section > article > div.article__authors'],
+    bodyQuery: [
+      '#maincontent > div.viewport > div > div.layout__panel.layout__panel--primary.layout__panel--60.layout__panel--filled > section > article > div.capsule__column-wrapper > div.capsule__text > p',
+    ],
+    sidebarContainerQuery: [
+      '#maincontent > div.viewport > div > div.layout__panel.layout__panel--primary.layout__panel--filled > section > article > div.article__authors',
+    ],
     appendContainerQuery: [],
   },
-  annalsofsurgery : {
+  annalsofsurgery: {
     inputQuery: [],
     bodyQuery: ['#article-abstract-content1 > div'],
     sidebarContainerQuery: ['#ArticleContainer'],
     appendContainerQuery: [],
   },
-  jasn : {
+  jasn: {
     inputQuery: [],
     bodyQuery: ['#article-abstract-content1 > div'],
     sidebarContainerQuery: ['#ArticleContainer'],
     appendContainerQuery: [],
   },
-  gut : {
+  gut: {
     inputQuery: [],
     bodyQuery: ['#content-block > div.article'],
     sidebarContainerQuery: ['ol[class="corresp-list"]'],
     appendContainerQuery: [],
   },
-  jnm : {
+  jnm: {
     inputQuery: [],
-    bodyQuery: ['#panels-ajax-tab-container-highwire_article_tabs > div.panels-ajax-tab-wrap-jnl_snm_tab_art > div > div > div > div > div > div > div > div'],
-    sidebarContainerQuery: ['#block-system-main > div > div > div > div:nth-child(2) > div.main-content-wrapper.alpha > div > div > div.panel-pane.pane-highwire-panel-tabs.pane-panels-ajax-tab-tabs > div > div > ul'],
+    bodyQuery: [
+      '#panels-ajax-tab-container-highwire_article_tabs > div.panels-ajax-tab-wrap-jnl_snm_tab_art > div > div > div > div > div > div > div > div',
+    ],
+    sidebarContainerQuery: [
+      '#block-system-main > div > div > div > div:nth-child(2) > div.main-content-wrapper.alpha > div > div > div.panel-pane.pane-highwire-panel-tabs.pane-panels-ajax-tab-tabs > div > div > ul',
+    ],
     appendContainerQuery: [],
   },
-  ehp : {
+  ehp: {
     inputQuery: [],
-    bodyQuery: ['#pb-page-content > div > div.full-text > div > main > article > div > div.article__content > div.article__body'],
+    bodyQuery: [
+      '#pb-page-content > div > div.full-text > div > main > article > div > div.article__content > div.article__body',
+    ],
     sidebarContainerQuery: ['div[class="epub-section"]'],
     appendContainerQuery: [],
   },
-  jidonline : {
+  jidonline: {
     inputQuery: [],
     bodyQuery: ['#sec1 > div'],
     sidebarContainerQuery: ['section#sec1'],
     appendContainerQuery: [],
   },
-  jci : {
+  jci: {
     inputQuery: [],
     bodyQuery: ['#section-abstract > p'],
     sidebarContainerQuery: ['h1[class="article-title"]'],
     appendContainerQuery: [],
   },
-  asm : {
+  asm: {
     inputQuery: [],
     bodyQuery: ['section#abstract'],
     sidebarContainerQuery: ['h2[property="name"]'],
     appendContainerQuery: [],
   },
-  psycnet : {
+  psycnet: {
     inputQuery: [],
-    bodyQuery: ['body > app > main > recorddisplay > div > div > div > div:nth-child(5) > div > abstract > div#record > div > p'],
-    sidebarContainerQuery: ['body > app > main > recorddisplay > div > div > div > div:nth-child(5) > div > citation'],
+    bodyQuery: [
+      'body > app > main > recorddisplay > div > div > div > div:nth-child(5) > div > abstract > div#record > div > p',
+    ],
+    sidebarContainerQuery: [
+      'body > app > main > recorddisplay > div > div > div > div:nth-child(5) > div > citation',
+    ],
     appendContainerQuery: [],
   },
-  chemrxiv : {
+  chemrxiv: {
     inputQuery: [],
-    bodyQuery: ['#main-content > div > div > div.row.LayoutGutters > div > div > div:nth-child(1) > div.article-content > div.abstract-text > div.abstract'],
+    bodyQuery: [
+      '#main-content > div > div > div.row.LayoutGutters > div > div > div:nth-child(1) > div.article-content > div.abstract-text > div.abstract',
+    ],
     sidebarContainerQuery: ['div[class="abstract-text"]'],
     appendContainerQuery: [],
   },
-  elifesciences : {
+  elifesciences: {
     inputQuery: [],
     bodyQuery: ['div[class="article-section__body"]'],
     sidebarContainerQuery: ['div[class="authors"]'],
@@ -306,6 +350,5 @@ export const config: Record<string, SearchEngine> = {
     bodyQuery: ['#gsc_oci_descr'],
     sidebarContainerQuery: ['#gsc_oci_title_wrapper'],
     appendContainerQuery: [],
-  }
+  },
 }
-
