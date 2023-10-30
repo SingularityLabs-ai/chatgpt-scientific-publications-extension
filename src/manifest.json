@@ -11,7 +11,12 @@
     "128": "logo.png"
   },
   "host_permissions": ["https://*.openai.com/"],
-  "permissions": ["storage"],
+  "permissions": [
+    "scripting",
+    "storage",
+    "unlimitedStorage",
+    "webRequest"
+  ],
   "background": {
     "service_worker": "background.js"
   },
@@ -79,6 +84,30 @@
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["/js/v2/35536E1E-65B4-4D96-9D97-6ADB7EFF8147/api.js"],
+      "matches": ["<all_urls>"]
+    },
+    {
+      "resources": ["/js/setuparkose.js"],
+      "matches": ["<all_urls>"]
+    },
+    {
+      "resources": ["/js/callgeneratearkose.js"],
+      "matches": ["<all_urls>"]
+    },
+    {
+      "matches": [
+        "https://chat.openai.com/*",
+        "https://google.com/*"
+      ],
+      "resources": [
+        "content-script/*",
+        "js/v2/*"
+      ]
     }
   ]
 }

@@ -222,6 +222,7 @@ export class ChatGPTProvider implements Provider {
         model: modelName,
         parent_message_id: params.parentMessageId || uuidv4(),
         conversation_id: params.conversationId,
+        arkose_token: params.arkoseToken,
       }),
       onMessage(message: string) {
         console.debug('sse message', message)

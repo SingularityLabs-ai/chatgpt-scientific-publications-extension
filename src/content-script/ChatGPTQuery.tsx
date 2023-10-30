@@ -15,6 +15,7 @@ interface Props {
   question: string
   promptSource: string
   onStatusChange?: (status: QueryStatus) => void
+  arkoseToken: string
 }
 
 interface Requestion {
@@ -60,7 +61,7 @@ function ChatGPTQuery(props: Props) {
       }
     }
     port.onMessage.addListener(listener)
-    port.postMessage({ question: props.question })
+    port.postMessage({ question: props.question, arkose_token: props.arkoseToken })
     return () => {
       port.onMessage.removeListener(listener)
       port.disconnect()
@@ -123,6 +124,7 @@ function ChatGPTQuery(props: Props) {
         questionIndex == 0
           ? answer?.messageId
           : requestionList[questionIndex - 1].answer?.messageId,
+      arkose_token: props.arkoseToken,
     })
     return () => {
       port.onMessage.removeListener(listener)
@@ -170,6 +172,7 @@ function ChatGPTQuery(props: Props) {
           <ChatGPTFeedback
             messageId={answer.messageId}
             conversationId={answer.conversationId}
+            arkoseToken={props.arkoseToken}
             latestAnswerText={answer.text}
           />
         </div>
@@ -212,10 +215,7 @@ function ChatGPTQuery(props: Props) {
               placeholder="Tell Me More"
               id="question"
             />
-            <button
-              id="submit"
-              onClick={requeryHandler}
-            >
+            <button id="submit" onClick={requeryHandler}>
               ASK
             </button>
           </form>

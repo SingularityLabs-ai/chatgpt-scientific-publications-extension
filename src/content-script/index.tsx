@@ -2,6 +2,7 @@ import { render } from 'preact'
 import '../base.css'
 import { getUserConfig, Theme } from '../config'
 import { detectSystemColorScheme } from '../utils'
+import { getArkoseToken } from './arkose'
 import ChatGPTContainer from './ChatGPTContainer'
 import { config, SearchEngine } from './search-engine-configs'
 import './styles.scss'
@@ -34,11 +35,13 @@ async function mount(question: string, promptSource: string, siteConfig: SearchE
       appendContainer.appendChild(container)
     }
   }
+  const arkoseToken = await getArkoseToken()
 
   render(
     <ChatGPTContainer
       question={question}
       promptSource={promptSource}
+      arkoseToken={arkoseToken}
       triggerMode={userConfig.triggerMode || 'always'}
     />,
     container,
@@ -74,11 +77,11 @@ export async function requeryMount(question: string, index: number) {
 }
 
 const siteRegex = new RegExp(Object.keys(config).join('|'))
-let siteName;
+let siteName
 try {
-   siteName = location.hostname.match(siteRegex)![0]
+  siteName = location.hostname.match(siteRegex)![0]
 } catch (error) {
-   siteName = location.pathname.match(siteRegex)![0]
+  siteName = location.pathname.match(siteRegex)![0]
 }
 const siteConfig = config[siteName]
 

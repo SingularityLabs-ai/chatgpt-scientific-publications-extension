@@ -7,6 +7,7 @@ import { Provider } from './types'
 async function generateAnswers(
   port: Browser.Runtime.Port,
   question: string,
+  arkose_token: string,
   conversationId: string | undefined,
   parentMessageId: string | undefined,
 ) {
@@ -41,6 +42,7 @@ async function generateAnswers(
     },
     conversationId: conversationId,
     parentMessageId: parentMessageId,
+    arkoseToken: arkose_token,
   })
 }
 
@@ -48,7 +50,13 @@ Browser.runtime.onConnect.addListener((port) => {
   port.onMessage.addListener(async (msg) => {
     console.debug('received msg', msg)
     try {
-      await generateAnswers(port, msg.question, msg.conversationId, msg.parentMessageId)
+      await generateAnswers(
+        port,
+        msg.question,
+        msg.arkose_token,
+        msg.conversationId,
+        msg.parentMessageId,
+      )
     } catch (err: any) {
       console.error(err)
       port.postMessage({ error: err.message })
