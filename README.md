@@ -1,6 +1,22 @@
-# SciGPT
+<p align="center">
+    <img src="./src/assets/icon.png" width="150">
+</p>
 
-[link-chrome]: https://chrome.google.com/webstore/detail/scigpt/paahiifbajkfokamacmmaakejigmgoke?hl=en&authuser=0 'Chrome Web Store'
+<h1 align="center">SciGPT</h1>
+
+<div align="center">
+
+##
+
+### Install
+
+<a href="https://chrome.google.com/webstore/detail/scigpt/paahiifbajkfokamacmmaakejigmgoke?hl=en&authuser=0">
+    <img src="https://user-images.githubusercontent.com/64502893/231991498-8df6dd63-727c-41d0-916f-c90c15127de3.png" width="200" alt="Get MultiGPT for Chromium">    
+</a><a href="https://microsoftedge.microsoft.com/addons/detail/scigpt/mhadibipedibfdhcckkjnnnbnkgbfanl">
+    <img src="https://user-images.githubusercontent.com/64502893/231991158-1b54f831-2fdc-43b6-bf9a-f894000e5aa8.png" width="160" alt="Get MultiGPT for Microsoft Edge">
+</a>
+
+##
 
 [<img src="https://user-images.githubusercontent.com/3750161/214147732-c75e96a4-48a4-4b64-b407-c2402e899a75.PNG" height="67" alt="Chrome" valign="middle">][link-chrome]
 
