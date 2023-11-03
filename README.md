@@ -106,6 +106,18 @@ Enable "Allow access to search page results" in the extension management page
 3. `npm run build`
 4. Load `build/chromium/` or `build/firefox/` directory to your browser
 
+
+##
+
+### 🤔 Questions? Problems? Suggestions?
+
+#### Get help - [Discord 💬](https://discord.gg/jc4xtF58Ve)
+
+[![Join us on Discord](https://invidget.switchblade.xyz/jc4xtF58Ve)](https://discord.gg/jc4xtF58Ve)
+
+##
+
+
 ## Credit
 
 This project is inspired by [ZohaibAhmed/ChatGPT-Google](https://github.com/ZohaibAhmed/ChatGPT-Google) and https://github.com/wong2/chatgpt-google-extension
