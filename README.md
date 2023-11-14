@@ -30,7 +30,7 @@ English &nbsp;&nbsp;|&nbsp;&nbsp; [Indonesia](README_IN.md) &nbsp;&nbsp;|&nbsp;&
 
 ##
 
-[Screenshot](#-screenshot) &nbsp;&nbsp;|&nbsp;&nbsp; [Features](#-features) &nbsp;&nbsp;|&nbsp;&nbsp; [Supported Bots](#-supported-bots) &nbsp;&nbsp;|&nbsp;&nbsp; [Manual Installation](#-manual-installation) &nbsp;&nbsp;|&nbsp;&nbsp; [Build from Source](#-build-from-source) &nbsp;&nbsp;|&nbsp;&nbsp; [Changelog](#-changelog)
+[Screenshot](#-screenshot) &nbsp;&nbsp;|&nbsp;&nbsp; [Features](#-features) &nbsp;&nbsp;|&nbsp;&nbsp; [Manual Installation](#-manual-installation) &nbsp;&nbsp;|&nbsp;&nbsp; [Build from Source](#-build-from-source) &nbsp;&nbsp;|&nbsp;&nbsp; [Changelog](#-changelog)
 
 [author-image]: https://img.shields.io/badge/author-ishandutta2007-blue.svg
 [author-url]: https://github.com/ishandutta2007
@@ -42,7 +42,6 @@ English &nbsp;&nbsp;|&nbsp;&nbsp; [Indonesia](README_IN.md) &nbsp;&nbsp;|&nbsp;&
 [last-commit-url]: https://github.com/SingularityLabs-ai/chatgpt-scientific-publications-extension/commits
 
 </div>
-
 
 
 
