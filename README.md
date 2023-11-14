@@ -4,9 +4,22 @@
 
 <h1 align="center">SciGPT</h1>
 
+
 <div align="center">
 
+### SciGPT is a multi-chatbot
 
+[![author][author-image]][author-url]
+[![license][license-image]][license-url]
+[![release][release-image]][release-url]
+[![last commit][last-commit-image]][last-commit-url]
+[![Join us on Discord](https://invidget.switchblade.xyz/jc4xtF58Ve)](https://discord.gg/jc4xtF58Ve)
+
+##
+English &nbsp;&nbsp;|&nbsp;&nbsp; [Indonesia](README_IN.md) &nbsp;&nbsp;|&nbsp;&nbsp; [简体中文](README_ZH-CN.md) &nbsp;&nbsp;|&nbsp;&nbsp; [繁體中文](README_ZH-TW.md) &nbsp;&nbsp;|&nbsp;&nbsp; [日本語](README_JA.md)
+
+
+##
 ### Install
 
 <a href="https://chrome.google.com/webstore/detail/scigpt/paahiifbajkfokamacmmaakejigmgoke?hl=en&authuser=0">
@@ -16,6 +29,23 @@
 </a>
 
 ##
+
+[Screenshot](#-screenshot) &nbsp;&nbsp;|&nbsp;&nbsp; [Features](#-features) &nbsp;&nbsp;|&nbsp;&nbsp; [Supported Bots](#-supported-bots) &nbsp;&nbsp;|&nbsp;&nbsp; [Manual Installation](#-manual-installation) &nbsp;&nbsp;|&nbsp;&nbsp; [Build from Source](#-build-from-source) &nbsp;&nbsp;|&nbsp;&nbsp; [Changelog](#-changelog)
+
+[author-image]: https://img.shields.io/badge/author-ishandutta2007-blue.svg
+[author-url]: https://github.com/ishandutta2007
+[license-image]: https://img.shields.io/github/license/SingularityLabs-ai/chatgpt-scientific-publications-extension?color=blue
+[license-url]: https://github.com/SingularityLabs-ai/chatgpt-scientific-publications-extension/blob/main/LICENSE
+[release-image]: https://img.shields.io/github/v/release/SingularityLabs-ai/chatgpt-scientific-publications-extension?color=blue
+[release-url]: https://github.com/SingularityLabs-ai/chatgpt-scientific-publications-extension/releases/latest
+[last-commit-image]: https://img.shields.io/github/last-commit/SingularityLabs-ai/chatgpt-scientific-publications-extension?label=last%20commit
+[last-commit-url]: https://github.com/SingularityLabs-ai/chatgpt-scientific-publications-extension/commits
+
+</div>
+
+
+
+
 
 
 ## Screenshot
