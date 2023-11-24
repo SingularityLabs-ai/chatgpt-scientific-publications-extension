@@ -7,6 +7,7 @@ import Browser from 'webextension-polyfill'
 import { captureEvent } from '../analytics'
 import { Answer } from '../messaging'
 import ChatGPTFeedback from './ChatGPTFeedback'
+import ExtensionFeedback from './ExtensionFeedback'
 import { isBraveBrowser, shouldShowRatingTip } from './utils.js'
 
 export type QueryStatus = 'success' | 'error' | undefined
@@ -200,25 +201,28 @@ function ChatGPTQuery(props: Props) {
         </div>
 
         {done && (
-          <form
-            id="requestion"
-            style={{ display: 'flex' }}
-            onSubmit={(e) => {
-              // submit when press enter key
-              e.preventDefault()
-            }}
-          >
-            <input
-              disabled={!reQuestionDone}
-              type="text"
-              ref={inputRef}
-              placeholder="Tell Me More"
-              id="question"
-            />
-            <button id="submit" onClick={requeryHandler}>
-              ASK
-            </button>
-          </form>
+          <>
+            <form
+              id="requestion"
+              style={{ display: 'flex' }}
+              onSubmit={(e) => {
+                // submit when press enter key
+                e.preventDefault()
+              }}
+            >
+              <input
+                disabled={!reQuestionDone}
+                type="text"
+                ref={inputRef}
+                placeholder="Tell Me More"
+                id="question"
+              />
+              <button id="submit" onClick={requeryHandler}>
+                ASK
+              </button>
+            </form>
+            <ExtensionFeedback />
+          </>
         )}
       </div>
     )

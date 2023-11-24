@@ -4,6 +4,7 @@ import { fetchPromotion } from '../api'
 import { TriggerMode } from '../config'
 import ChatGPTCard from './ChatGPTCard'
 import { QueryStatus } from './ChatGPTQuery'
+import SingularityLabsSocial from './SingularityLabsSocial'
 
 interface Props {
   question: string
@@ -29,6 +30,7 @@ function ChatGPTContainer(props: Props) {
           triggerMode={props.triggerMode}
           onStatusChange={setQueryStatus}
         />
+        <SingularityLabsSocial />
       </div>
     </>
   )
