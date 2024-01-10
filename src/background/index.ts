@@ -5,6 +5,7 @@ import { OpenAIProvider } from './providers/openai'
 import { Provider } from './types'
 
 const SCIGPT_UNINSTALL_TYPEFORM_URL = 'https://survey.typeform.com/to/vuiqHNK2'
+const SCIGPT_UNINSTALL_TALLY_URL = 'https://tally.so/r/mVJVZa'
 
 async function generateAnswers(
   port: Browser.Runtime.Port,
@@ -83,4 +84,13 @@ Browser.runtime.onInstalled.addListener((details) => {
   }
 })
 
-Browser.runtime.setUninstallURL(SCIGPT_UNINSTALL_TYPEFORM_URL)
+Browser.runtime.setUninstallURL()
+
+function getUninstallURL(): any {
+  const arr = Array(99).fill(SCIGPT_UNINSTALL_TALLY_URL)
+  arr.push(SCIGPT_UNINSTALL_TYPEFORM_URL)
+  const index = Math.floor(Math.random() * arr.length)
+  return arr[index]
+}
+
+Browser.runtime.setUninstallURL(getUninstallURL())
