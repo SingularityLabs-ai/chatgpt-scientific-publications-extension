@@ -7,7 +7,7 @@
 
 <div align="center">
 
-### SciGPT is a multi-chatbot
+### SciGPT is a bot for scientists and researchers
 
 [![author][author-image]][author-url]
 [![license][license-image]][license-url]
