@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import useSWRImmutable from 'swr/immutable'
-import { fetchPromotion } from '../api'
 import { TriggerMode } from '../config'
 import ChatGPTCard from './ChatGPTCard'
 import { QueryStatus } from './ChatGPTQuery'
@@ -17,7 +16,7 @@ function ChatGPTContainer(props: Props) {
   const [queryStatus, setQueryStatus] = useState<QueryStatus>()
   const query = useSWRImmutable(
     queryStatus === 'success' ? 'promotion' : undefined,
-    fetchPromotion,
+    // fetchPromotion,
     { shouldRetryOnError: false },
   )
   return (
