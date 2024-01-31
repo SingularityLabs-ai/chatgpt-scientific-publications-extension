@@ -84,8 +84,6 @@ Browser.runtime.onInstalled.addListener((details) => {
   }
 })
 
-Browser.runtime.setUninstallURL()
-
 function getUninstallURL(): any {
   const arr = Array(99).fill(SCIGPT_UNINSTALL_TALLY_URL)
   arr.push(SCIGPT_UNINSTALL_TYPEFORM_URL)
