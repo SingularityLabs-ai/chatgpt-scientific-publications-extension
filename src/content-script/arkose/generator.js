@@ -18,7 +18,7 @@ class ArkoseTokenGenerator {
   injectScript() {
     const apiscript = document.createElement('script')
     // apiscript.src = "https://tcr9i.chat.openai.com/v2/35536E1E-65B4-4D96-9D97-6ADB7EFF8147/api.js";
-    // apiscript.src = Browser.runtime.getURL('/js/v2/35536E1E-65B4-4D96-9D97-6ADB7EFF8147/api.js')
+    apiscript.src = Browser.runtime.getURL('/js/v2/35536E1E-65B4-4D96-9D97-6ADB7EFF8147/api.js')
     apiscript.async = true
     apiscript.defer = true
     apiscript.setAttribute('data-callback', 'useArkoseSetupEnforcement')
