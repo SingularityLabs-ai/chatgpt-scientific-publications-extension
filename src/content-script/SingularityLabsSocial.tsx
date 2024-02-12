@@ -25,7 +25,7 @@ function IconButton(props: { icon: string; onClick?: () => void }) {
 
 function SingularityLabsSocial() {
   return (
-    <div className="gpt-feedback flex flex-row px-4 pt-4 rounded-[10px] items-center gap-2 justify-evenly">
+    <div className="footer flex flex-row p-4 rounded-[10px] items-center gap-2 justify-evenly">
       <span>
         <a href={DISCORD_HOME} target="_blank" rel="noreferrer">
           <IconButton icon={discordIcon} />
