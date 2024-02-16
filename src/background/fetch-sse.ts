@@ -19,6 +19,10 @@ export async function fetchSSE(
   })
   for await (const chunk of streamAsyncIterable(resp.body!)) {
     const str = new TextDecoder().decode(chunk)
+    console.log('fetchSSE', str)
+    if (str.includes('wss_url')) {
+      onMessage(str)
+    }
     parser.feed(str)
   }
 }

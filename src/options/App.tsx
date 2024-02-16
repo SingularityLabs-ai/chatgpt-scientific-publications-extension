@@ -1,8 +1,8 @@
 import { Button, CssBaseline, GeistProvider, Radio, Text, Toggle, useToasts } from '@geist-ui/core'
 import { Plus } from '@geist-ui/icons'
 import { useCallback, useEffect, useMemo, useState } from 'preact/hooks'
-import '../base.css'
 import {
+  ChatgptMode,
   getUserConfig,
   Language,
   Prompt,
@@ -11,14 +11,20 @@ import {
   TriggerMode,
   TRIGGER_MODE_TEXT,
   updateUserConfig,
-} from '../config'
+} from '~config'
+import '../base.css'
 import logo from '../logo.png'
 import { detectSystemColorScheme, getExtensionVersion } from '../utils'
 import AddNewPromptModal from './AddNewPromptModal'
 import PromptCard from './PromptCard'
 import ProviderSelect from './ProviderSelect'
 
-function OptionsPage(props: { theme: Theme; onThemeChange: (theme: Theme) => void }) {
+function OptionsPage(props: {
+  theme: Theme
+  onThemeChange: (theme: Theme) => void
+  chatgptMode: ChatgptMode
+  onChatgptModeChange: (chatgptMode: ChatgptMode) => void
+}) {
   const [triggerMode, setTriggerMode] = useState<TriggerMode>(TriggerMode.Always)
   const [language, setLanguage] = useState<Language>(Language.Auto)
   const [prompt, setPrompt] = useState<string>(Prompt)
@@ -64,6 +70,15 @@ function OptionsPage(props: { theme: Theme; onThemeChange: (theme: Theme) => voi
       setToast({ text: 'Changes saved', type: 'success' })
     },
     [setToast],
+  )
+
+  const onChatgptModeChange = useCallback(
+    (chatgptMode: ChatgptMode) => {
+      updateUserConfig({ chatgptMode: chatgptMode })
+      props.onChatgptModeChange(chatgptMode)
+      setToast({ text: 'Changes saved', type: 'success' })
+    },
+    [props, setToast],
   )
 
   return (
@@ -176,6 +191,22 @@ function OptionsPage(props: { theme: Theme; onThemeChange: (theme: Theme) => voi
             )
           })}
         </Radio.Group>
+        <Text h3 className="mt-8">
+          Choose ChatGPT Mode
+        </Text>
+        <Radio.Group
+          value={props.chatgptMode}
+          onChange={(val) => onChatgptModeChange(val as ChatgptMode)}
+          useRow
+        >
+          {Object.entries(ChatgptMode).map(([k, v]) => {
+            return (
+              <Radio key={v} value={v}>
+                {v}
+              </Radio>
+            )
+          })}
+        </Radio.Group>
         <Text h3 className="mt-5 mb-0">
           AI Provider
         </Text>
@@ -196,6 +227,7 @@ function OptionsPage(props: { theme: Theme; onThemeChange: (theme: Theme) => voi
 
 function App() {
   const [theme, setTheme] = useState(Theme.Auto)
+  const [chatgptMode, setChatgptMode] = useState(ChatgptMode.SSE)
 
   const themeType = useMemo(() => {
     if (theme === Theme.Auto) {
@@ -208,10 +240,19 @@ function App() {
     getUserConfig().then((config) => setTheme(config.theme))
   }, [])
 
+  useEffect(() => {
+    getUserConfig().then((config) => setChatgptMode(config.chatgptMode))
+  }, [])
+
   return (
     <GeistProvider themeType={themeType}>
       <CssBaseline />
-      <OptionsPage theme={theme} onThemeChange={setTheme} />
+      <OptionsPage
+        theme={theme}
+        onThemeChange={setTheme}
+        chatgptMode={chatgptMode}
+        onChatgptModeChange={setChatgptMode}
+      />
     </GeistProvider>
   )
 }

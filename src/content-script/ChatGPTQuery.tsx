@@ -4,6 +4,7 @@ import { memo, useCallback, useRef } from 'react'
 import ReactMarkdown from 'react-markdown'
 import rehypeHighlight from 'rehype-highlight'
 import Browser from 'webextension-polyfill'
+import { ChatgptMode, getUserConfig, updateUserConfig } from '~config'
 import { captureEvent } from '../analytics'
 import { Answer } from '../messaging'
 import ChatGPTFeedback from './ChatGPTFeedback'
@@ -43,6 +44,35 @@ function ChatGPTQuery(props: Props) {
   const [questionIndex, setQuestionIndex] = useState(0)
   const [reQuestionLatestAnswerText, setReQuestionLatestAnswerText] = useState<string | undefined>()
 
+  async function resetChatgptErrorTimes() {
+    Browser.storage.sync.set({ chatgptErrorTimes: 0 })
+  }
+
+  async function incrChatgptErrorTimes() {
+    //increments only on manual action and for all types of errors
+    //since this variable is suffixed with version number old variblae becomes void for next version(equivalent to chrome.storage.local.remove)
+    const { chatgptErrorTimes = 0 } = await Browser.storage.sync.get('chatgptErrorTimes')
+    Browser.storage.sync.set({ chatgptErrorTimes: chatgptErrorTimes + 1 })
+    return chatgptErrorTimes
+  }
+
+  async function resetChatgptModeAutochangeTimes() {
+    Browser.storage.sync.set({ chatgptModeAutochangeTimes: 0 })
+  }
+
+  async function switchChatgptModeAutochangeTimes() {
+    //increments only on both auto and manual action and only for invalid model error
+    const { chatgptModeAutochangeTimes = 0 } = await Browser.storage.sync.get(
+      'chatgptModeAutochangeTimes',
+    )
+    console.log(
+      'ChatgptQuery:switchChatgptModeAutochangeTimes:chatgptModeAutochangeTimes(before):',
+      chatgptModeAutochangeTimes,
+    )
+    Browser.storage.sync.set({ chatgptModeAutochangeTimes: chatgptModeAutochangeTimes + 1 })
+    return chatgptModeAutochangeTimes
+  }
+
   useEffect(() => {
     props.onStatusChange?.(status)
   }, [props, status])
@@ -59,6 +89,45 @@ function ChatGPTQuery(props: Props) {
       } else if (msg.event === 'DONE') {
         setDone(true)
         setReQuestionDone(true)
+      } else if (msg.error || msg.event === 'ERROR') {
+        if (msg.error) {
+          console.log('ChatgptQueryTab:Uncaucht error', msg)
+          setError(msg.error)
+        } else if (msg.event === 'ERROR') {
+          console.log('ChatgptQueryTab:Caught error', msg)
+          if (msg.message.includes('wss_url')) {
+            setAnswer({
+              text: 'ChatGPT uses WebSockets in your area, please reload page for settings to auto adjust to support WebSockets',
+              messageId: '',
+              conversationId: '',
+              parentMessageId: '',
+              conversationContext: '',
+            })
+            setStatus('success')
+            getUserConfig().then((config) => {
+              switchChatgptModeAutochangeTimes().then((t) => {
+                console.log(
+                  'ChatgptQuery:updateUserConfig:chatgptMode(before):',
+                  config.chatgptMode,
+                )
+                try {
+                  if (config.chatgptMode === ChatgptMode.SSE) {
+                    updateUserConfig({ chatgptMode: ChatgptMode.WSS })
+                    window.location.reload()
+                    // getUserConfig().then((config2) => {
+                    //   console.log(
+                    //     'ChatgptQueryTab:updateUserConfig:chatgptMode(after):',
+                    //     config2.chatgptMode,
+                    //   )
+                    // })
+                  }
+                } catch (ex) {
+                  console.log('ChatgptQuery:ex', ex)
+                }
+              })
+            })
+          }
+        }
       }
     }
     port.onMessage.addListener(listener)

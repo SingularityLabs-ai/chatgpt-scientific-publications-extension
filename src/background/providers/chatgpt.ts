@@ -1,15 +1,15 @@
 import { Buffer } from 'buffer'
 import dayjs from 'dayjs'
+import { createParser } from 'eventsource-parser'
 import ExpiryMap from 'expiry-map'
 import { v4 as uuidv4 } from 'uuid'
-import { ADAY, APPSHORTNAME, HALFHOUR } from '~utils/consts'
-import { fetchSSE } from '../fetch-sse'
-import { GenerateAnswerParams, Provider } from '../types'
-
-import { createParser } from 'eventsource-parser'
 import Browser from 'webextension-polyfill'
 import WebSocketAsPromised from 'websocket-as-promised'
+import { ChatgptMode, getUserConfig } from '~config'
+import { ADAY, APPSHORTNAME, HALFHOUR } from '~utils/consts'
 import { parseSSEResponse } from '~utils/sse'
+import { fetchSSE } from '../fetch-sse'
+import { GenerateAnswerParams, Provider } from '../types'
 
 dayjs().format()
 
@@ -28,11 +28,27 @@ function removeCitations(text: string) {
   return text.replaceAll(/\u3010\d+\u2020source\u3011/g, '')
 }
 
+// const getConversationTitle = (bigtext: string) => {
+//   let ret = bigtext.split('\n', 1)[0]
+//   ret = ret.split('.', 1)[0]
+//   ret = APPSHORTNAME + ':' + ret.split(':')[1].trim()
+//   console.log('getConversationTitle:', ret)
+//   return ret
+// }
 const getConversationTitle = (bigtext: string) => {
   let ret = bigtext.split('\n', 1)[0]
+  try {
+    ret = ret.split('for summarizing :')[1]
+  } catch (e) {
+    console.log(e)
+  }
   ret = ret.split('.', 1)[0]
-  ret = APPSHORTNAME + ':' + ret.split(':')[1].trim()
-  console.log('getConversationTitle:', ret)
+  try {
+    ret = APPSHORTNAME + ':' + ret.split(':')[1].trim()
+  } catch (e) {
+    console.log(e)
+    ret = APPSHORTNAME + ':' + ret.trim().slice(0, 8) + '..'
+  }
   return ret
 }
 
@@ -199,13 +215,15 @@ export class ChatGPTProvider implements Provider {
   async generateAnswerBySSE(params: GenerateAnswerParams, cleanup: () => void) {
     console.debug('ChatGPTProvider:generateAnswerBySSE:', params)
     const modelName = await this.getModelName()
-    console.debug('Using model:', modelName)
+    console.debug('ChatGPTProvider:this.token:', this.token)
+    console.debug('ChatGPTProvider:modelName:', modelName)
     await fetchSSE('https://chat.openai.com/backend-api/conversation', {
       method: 'POST',
       signal: params.signal,
       headers: {
         'Content-Type': 'application/json',
         Authorization: `Bearer ${this.token}`,
+        'Openai-Sentinel-Arkose-Token': params.arkoseToken,
       },
       body: JSON.stringify({
         action: 'next',
@@ -225,7 +243,12 @@ export class ChatGPTProvider implements Provider {
         arkose_token: params.arkoseToken,
       }),
       onMessage(message: string) {
-        console.debug('sse message', message)
+        console.debug('ChatGPTProvider:generateAnswerBySSE:message', message)
+        if (message.includes('wss_url')) {
+          params.onEvent({ type: 'error', message: message })
+          cleanup()
+          return
+        }
         if (message === '[DONE]') {
           params.onEvent({ type: 'done' })
           cleanup()
@@ -241,11 +264,10 @@ export class ChatGPTProvider implements Provider {
         const text = data.message?.content?.parts?.[0]
         if (text) {
           if (countWords(text) == 1 && data.message?.author?.role == 'assistant') {
-            if (params.prompt.indexOf('for summarizing :') !== -1) {
-              renameConversationTitle(data.conversation_id)
+            if (params.prompt.indexOf('search query:') !== -1) {
+              this.renameConversationTitle(data.conversation_id)
             }
           }
-          // conversationId = data.conversation_id
           params.onEvent({
             type: 'answer',
             data: {
@@ -337,6 +359,7 @@ export class ChatGPTProvider implements Provider {
             return
           }
           if (text) {
+            console.log('ChatGPTProvider:setupWSS:text', text)
             if (countWords(text) == 1 && data.message?.author?.role == 'assistant') {
               if (params.prompt.indexOf('search query:') !== -1) {
                 this.renameConversationTitle(data.conversation_id)
@@ -394,48 +417,30 @@ export class ChatGPTProvider implements Provider {
     return resp
   }
 
+  async renameConversationTitle(convId: string) {
+    const titl: string = getConversationTitle(params.prompt)
+    console.log('renameConversationTitle:', this.token, convId, titl)
+    setConversationProperty(this.token, convId, { title: titl })
+  }
+
   async generateAnswer(params: GenerateAnswerParams) {
+    console.log('ChatGPTProvider:generateAnswer', params.arkoseToken)
     // let conversationId: string | undefined
-
-    const countWords = (text) => {
-      return text.trim().split(/\s+/).length
-    }
-
-    const getConversationTitle = (bigtext: string) => {
-      let ret = bigtext.split('\n', 1)[0]
-      try {
-        ret = ret.split('for summarizing :')[1]
-      } catch (e) {
-        console.log(e)
-      }
-      ret = ret.split('.', 1)[0]
-      try {
-        ret = APPSHORTNAME + ':' + ret.split(':')[1].trim()
-      } catch (e) {
-        console.log(e)
-        ret = APPSHORTNAME + ':' + ret.trim().slice(0, 8) + '..'
-      }
-      return ret
-    }
-
-    const renameConversationTitle = (convId: string) => {
-      const titl: string = getConversationTitle(params.prompt)
-      console.log('renameConversationTitle:', this.token, convId, titl)
-      setConversationProperty(this.token, convId, { title: titl })
-    }
+    const config = await getUserConfig()
     const cleanup = () => {
       // if (conversationId) {
       // setConversationProperty(this.token, conversationId, { is_visible: false })
       // }
     }
 
-    // if (config.chatgptMode == ChatgptMode.SSE) {
-    //   this.generateAnswerBySSE(params, cleanup)
-    // } else {
-    const regResp = await this.registerWSS(params)
-    await this.setupWSS(params, regResp) // Since params change WSS have to be setup up every time
-    this.generateAnswerBySSE(params, cleanup)
-    // }
+    console.log('ChatGPTProvider:ChatgptMode', config.chatgptMode)
+    if (config.chatgptMode == ChatgptMode.SSE) {
+      this.generateAnswerBySSE(params, cleanup)
+    } else {
+      const regResp = await this.registerWSS(params)
+      await this.setupWSS(params, regResp) // Since params change WSS have to be setup up every time
+      this.generateAnswerBySSE(params, cleanup)
+    }
     return { cleanup }
   }
 }
