@@ -19,6 +19,7 @@
     "expiry-map": "^2.0.0",
     "github-markdown-css": "^5.1.0",
     "inter-ui": "^3.19.3",
+    "llm-playground-chain": "^0.0.1",
     "lodash-es": "^4.17.21",
     "ofetch": "^1.0.1",
     "preact": "^10.11.3",
@@ -30,8 +31,7 @@
     "rehype-highlight": "^6.0.0",
     "swr": "^2.0.0",
     "uuid": "^9.0.0",
-    "websocket-as-promised": "^2.0.1",
-    "llm-playground-chain": "file:llm-playground-chain-0.0.1.tgz"
+    "websocket-as-promised": "^2.0.1"
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.13",
