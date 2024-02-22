@@ -30,7 +30,8 @@
     "rehype-highlight": "^6.0.0",
     "swr": "^2.0.0",
     "uuid": "^9.0.0",
-    "websocket-as-promised": "^2.0.1"
+    "websocket-as-promised": "^2.0.1",
+    "llm-playground-chain": "file:llm-playground-chain-0.0.1.tgz"
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.13",
@@ -68,7 +69,8 @@
     ]
   },
   "engines": {
-    "node": ">=16.15.0 <17.0.0",
-    "npm": ">=8.19.4 <9.0.0"
+    "node": ">=18.17.1 <19.0.0",
+    "pnpm": ">=9.6.7",
+    "npm": ">=9.6.7 <10.0.0"
   }
 }

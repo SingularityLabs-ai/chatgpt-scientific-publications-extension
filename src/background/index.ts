@@ -1,6 +1,7 @@
 import Browser from 'webextension-polyfill'
 import { getProviderConfigs, ProviderType } from '../config'
-import { ChatGPTProvider, getChatGPTAccessToken, sendMessageFeedback } from './providers/chatgpt'
+// import { ChatGPTProvider, getChatGPTAccessToken, sendMessageFeedback } from './providers/chatgpt'
+import { ChatGPTProvider, getChatGPTAccessToken, sendMessageFeedback } from 'llm-playground-chain'
 import { OpenAIProvider } from './providers/openai'
 import { Provider } from './types'
 
@@ -15,7 +16,7 @@ async function generateAnswers(
   parentMessageId: string | undefined,
 ) {
   const providerConfigs = await getProviderConfigs()
-
+  // console.log("generateAnswer:ChatGPTProvider,two:", ChatGPTProvider, two)
   let provider: Provider
   if (providerConfigs.provider === ProviderType.ChatGPT) {
     const token = await getChatGPTAccessToken()
