@@ -4,6 +4,10 @@
 
 <h1 align="center">SciGPT</h1>
 
+<a href="https://discord.gg/jc4xtF58Ve">
+    <img src="https://github.com/SingularityLabs-ai/chatgpt-scientific-publications-extension/assets/2527354/026b7cda-d8a1-450d-856d-d2d7e7b9ce3e" alt="Visit Singularity Labs">
+</a>
+
 
 <div align="center">
 
@@ -17,6 +21,7 @@
 
 [![FollowSmallButtonGithub](https://github.com/SingularityLabs-ai/MultiGPT-mini/assets/2527354/a4a46537-669c-4e97-8e5f-05ff083c3070)](https://github.com/SingularityLabs-ai)
 
+
 ##
 English &nbsp;&nbsp;|&nbsp;&nbsp; [Indonesia](README_IN.md) &nbsp;&nbsp;|&nbsp;&nbsp; [简体中文](README_ZH-CN.md) &nbsp;&nbsp;|&nbsp;&nbsp; [繁體中文](README_ZH-TW.md) &nbsp;&nbsp;|&nbsp;&nbsp; [日本語](README_JA.md)
 
@@ -25,8 +30,7 @@ English &nbsp;&nbsp;|&nbsp;&nbsp; [Indonesia](README_IN.md) &nbsp;&nbsp;|&nbsp;&
 ### Install
 
 <a href="https://chrome.google.com/webstore/detail/scigpt/paahiifbajkfokamacmmaakejigmgoke?hl=en&authuser=0">
-    <img src="https://user-images.githubusercontent.com/64502893/231991498-8df6dd63-727c-41d0-916f-c90c15127de3.png" width="200" alt="Get MultiGPT for Chromium">    
-</a><a href="https://microsoftedge.microsoft.com/addons/detail/scigpt/mhadibipedibfdhcckkjnnnbnkgbfanl">
+    <img src="https://user-images.githubusercontent.com/64502893/231991498-8df6dd63-727c-41d0-916f-c90c15127de3.png" width="200" alt="Get MultiGPT for Chromium"> </a><a href="https://microsoftedge.microsoft.com/addons/detail/scigpt/mhadibipedibfdhcckkjnnnbnkgbfanl">
     <img src="https://user-images.githubusercontent.com/64502893/231991158-1b54f831-2fdc-43b6-bf9a-f894000e5aa8.png" width="160" alt="Get MultiGPT for Microsoft Edge">
 </a>
 
