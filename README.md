@@ -4,6 +4,8 @@
 
 <h1 align="center">SciGPT</h1>
 
+![Science Class Presentation in Pink Blue Flat Graphic Style](https://github.com/SingularityLabs-ai/chatgpt-scientific-publications-extension/assets/2527354/026b7cda-d8a1-450d-856d-d2d7e7b9ce3e)
+
 
 <div align="center">
 
