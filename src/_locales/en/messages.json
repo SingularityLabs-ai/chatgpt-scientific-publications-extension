@@ -1,6 +1,6 @@
 {
   "appName": {
-    "message": "SciGPT"
+    "message": "SciGPT: Summarize a scientific paper"
   },
   "appDesc": {
     "message": "Summarize a scientific paper on journal's websites and provide key insights using ChatGPT."
