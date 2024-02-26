@@ -1,0 +1,8 @@
+{
+    "appName": {
+        "message": "SciGPT: Sammanfatta en vetenskaplig artikel"
+    },
+    "appDesc": {
+        "message": "Sammanfatta en vetenskaplig artikel på tidskriftens webbplatser och ge viktiga insikter med ChatGPT."
+    }
+}

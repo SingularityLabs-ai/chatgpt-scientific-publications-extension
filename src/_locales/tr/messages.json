@@ -1,0 +1,8 @@
+{
+    "appName": {
+        "message": "SciGPT: Bilimsel bir makaleyi özetleyin"
+    },
+    "appDesc": {
+        "message": "Derginin web sitelerindeki bilimsel bir makaleyi özetleyin ve ChatGPT'yi kullanarak önemli bilgiler sağlayın."
+    }
+}

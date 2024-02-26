@@ -1,8 +1,8 @@
 {
-  "appName": {
-    "message": "SciGPT"
-  },
-  "appDesc": {
-    "message": "Összegzés és kulcsfontosságú betekintések bármely cikkre"
-  }
+    "appName": {
+        "message": "SciGPT: Összefoglaljon egy tudományos cikket"
+    },
+    "appDesc": {
+        "message": "Összegezzen egy tudományos cikket a folyóirat webhelyeiről, és adja meg a legfontosabb betekintést a ChatGPT segítségével."
+    }
 }

@@ -1,8 +1,8 @@
 {
-  "appName": {
-    "message": "SciGPT"
-  },
-  "appDesc": {
-    "message": "Rezumați și oferiți perspectivă cheie pentru orice articol arxiv"
-  }
+    "appName": {
+        "message": "SciGPT: Rezumați o lucrare științifică"
+    },
+    "appDesc": {
+        "message": "Rezumați o lucrare științifică pe site-urile web ale revistei și furnizați informații cheie folosind ChatGPT."
+    }
 }

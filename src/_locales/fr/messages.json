@@ -1,8 +1,8 @@
 {
-  "appName": {
-    "message": "SciGPT"
-  },
-  "appDesc": {
-    "message": "Résumer et fournir des éclairages clés pour un article."
-  }
+    "appName": {
+        "message": "SciGPT : Résumer un article scientifique"
+    },
+    "appDesc": {
+        "message": "Résumez un article scientifique sur les sites Web d'une revue et fournissez des informations clés à l'aide de ChatGPT."
+    }
 }

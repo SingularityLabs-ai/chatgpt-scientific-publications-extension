@@ -1,8 +1,8 @@
 {
-  "appName": {
-    "message": "SciGPT"
-  },
-  "appDesc": {
-    "message": "Fassen Sie ein Papier zusammen und liefern Sie wichtige Erkenntnisse."
-  }
+    "appName": {
+        "message": "SciGPT: Eine wissenschaftliche Arbeit zusammenfassen"
+    },
+    "appDesc": {
+        "message": "Eine wissenschaftliche Arbeit auf den Websites von Zeitschriften zusammenfassen und mit ChatGPT wichtige Erkenntnisse liefern."
+    }
 }

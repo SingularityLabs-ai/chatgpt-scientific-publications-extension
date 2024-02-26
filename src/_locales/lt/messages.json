@@ -1,0 +1,8 @@
+{
+    "appName": {
+        "message": "SciGPT: apibendrinkite mokslinį straipsnį"
+    },
+    "appDesc": {
+        "message": "Apibendrinkite mokslinį straipsnį apie žurnalo svetaines ir pateikite pagrindines įžvalgas naudodami ChatGPT."
+    }
+}

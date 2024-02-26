@@ -1,8 +1,8 @@
 {
-  "appName": {
-    "message": "SciGPT"
-  },
-  "appDesc": {
-    "message": "ChatGPT로 Arxiv논문의 인사이트를 제공합니다."
-  }
+    "appName": {
+        "message": "SciGPT: 과학 논문 요약"
+    },
+    "appDesc": {
+        "message": "ChatGPT를 사용하여 저널 웹사이트의 과학 논문을 요약하고 핵심 통찰력을 제공하세요."
+    }
 }

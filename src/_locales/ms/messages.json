@@ -1,0 +1,8 @@
+{
+    "appName": {
+        "message": "SciGPT: Ringkaskan kertas saintifik"
+    },
+    "appDesc": {
+        "message": "Ringkaskan kertas saintifik di tapak web jurnal dan berikan pandangan utama menggunakan ChatGPT."
+    }
+}

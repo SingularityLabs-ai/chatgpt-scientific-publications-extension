@@ -1,0 +1,8 @@
+{
+    "appName": {
+        "message": "SciGPT: Tee yhteenveto tieteellisestä artikkelista"
+    },
+    "appDesc": {
+        "message": "Tee yhteenveto tieteellisestä artikkelista lehden verkkosivustoilla ja anna tärkeimmät näkemykset ChatGPT:n avulla."
+    }
+}

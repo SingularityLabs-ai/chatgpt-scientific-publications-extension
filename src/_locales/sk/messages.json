@@ -1,0 +1,8 @@
+{
+    "appName": {
+        "message": "SciGPT: Zhrnutie vedeckého článku"
+    },
+    "appDesc": {
+        "message": "Zhrnutie vedeckého článku na webových stránkach časopisu a poskytnutie kľúčových poznatkov pomocou ChatGPT."
+    }
+}

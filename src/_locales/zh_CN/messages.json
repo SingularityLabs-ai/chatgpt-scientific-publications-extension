@@ -1,8 +1,8 @@
 {
-  "appName": {
-    "message": "SciGPT"
-  },
-  "appDesc": {
-    "message": "概括并提供任何 文章的关键见解。"
-  }
+    "appName": {
+        "message": "SciGPT：总结科学论文"
+    },
+    "appDesc": {
+        "message": "总结期刊网站上的科学论文并使用 ChatGPT 提供关键见解。"
+    }
 }

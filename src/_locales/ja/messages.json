@@ -1,0 +1,8 @@
+{
+    "appName": {
+        "message": "SciGPT: 科学論文を要約する"
+    },
+    "appDesc": {
+        "message": "雑誌の Web サイトで科学論文を要約し、ChatGPT を使用して重要な洞察を提供します。"
+    }
+}

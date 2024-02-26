@@ -1,0 +1,8 @@
+{
+    "appName": {
+        "message": "SciGPT: Podsumowanie artykułu naukowego"
+    },
+    "appDesc": {
+        "message": "Podsumuj artykuł naukowy na stronach internetowych czasopisma i przekaż najważniejsze informacje za pomocą ChatGPT."
+    }
+}
