@@ -105,6 +105,8 @@ English &nbsp;&nbsp;|&nbsp;&nbsp; [Indonesia](README_IN.md) &nbsp;&nbsp;|&nbsp;&
 * Chemrxiv: "https://chemrxiv.org/*"
 * Elifesciences: "https://elifesciences.org/articles/*"
 * Google Scholar: "https://scholar.google.com/*"
+* SSNR: "https://papers.ssrn.com/*"
+
 
 (To be fixed:)
 
