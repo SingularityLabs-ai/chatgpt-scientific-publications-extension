@@ -20,6 +20,12 @@ export enum Theme {
   Dark = 'dark',
 }
 
+export enum AppWidth {
+  Narrow = 'narrow',
+  Medium = 'medium',
+  Wide = 'wide',
+}
+
 export enum Language {
   Auto = 'auto',
   English = 'english',

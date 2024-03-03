@@ -3,7 +3,7 @@ import useSWRImmutable from 'swr/immutable'
 import { TriggerMode } from '../config'
 import ChatGPTCard from './ChatGPTCard'
 import { QueryStatus } from './ChatGPTQuery'
-import SingularityLabsSocial from './SingularityLabsSocial'
+import SimplifiedSingularityLabsSocial from './SimplifiedSingularityLabsSocial'
 
 interface Props {
   question: string
@@ -29,7 +29,7 @@ function ChatGPTContainer(props: Props) {
           triggerMode={props.triggerMode}
           onStatusChange={setQueryStatus}
         />
-        <SingularityLabsSocial />
+        <SimplifiedSingularityLabsSocial />
       </div>
     </>
   )
