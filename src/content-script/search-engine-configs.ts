@@ -351,4 +351,10 @@ export const config: Record<string, SearchEngine> = {
     sidebarContainerQuery: ['#gsc_oci_title_wrapper'],
     appendContainerQuery: [],
   },
+  ssrn: {
+    inputQuery: [],
+    bodyQuery: ['div.abstract-text > p'],
+    sidebarContainerQuery: ['div.abstract-text'],
+    appendContainerQuery: [],
+  },
 }

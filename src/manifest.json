@@ -75,7 +75,8 @@
         "https://psycnet.apa.org/record/*",
         "https://chemrxiv.org/*",
         "https://elifesciences.org/articles/*",
-        "https://scholar.google.com/*"
+        "https://scholar.google.com/*",
+        "https://*.ssrn.com/*"
       ],
       "js": ["content-script.js"],
       "css": ["content-script.css"]

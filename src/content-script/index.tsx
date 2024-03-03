@@ -83,6 +83,7 @@ try {
 } catch (error) {
   siteName = location.pathname.match(siteRegex)![0]
 }
+console.log('siteName', siteName)
 const siteConfig = config[siteName]
 
 async function run() {
