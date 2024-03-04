@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import useSWRImmutable from 'swr/immutable'
-import { TriggerMode } from '../config'
+import { Theme, TriggerMode } from '../config'
 import ChatGPTCard from './ChatGPTCard'
 import { QueryStatus } from './ChatGPTQuery'
 import SimplifiedSingularityLabsSocial from './SimplifiedSingularityLabsSocial'
@@ -10,6 +10,7 @@ interface Props {
   promptSource: string
   triggerMode: TriggerMode
   arkoseToken: string
+  theme?: Theme
 }
 
 function ChatGPTContainer(props: Props) {
@@ -29,7 +30,7 @@ function ChatGPTContainer(props: Props) {
           triggerMode={props.triggerMode}
           onStatusChange={setQueryStatus}
         />
-        <SimplifiedSingularityLabsSocial />
+        <SimplifiedSingularityLabsSocial theme={props.theme} />
       </div>
     </>
   )

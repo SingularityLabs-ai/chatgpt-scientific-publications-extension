@@ -121,7 +121,7 @@ function SimplifiedSingularityLabsSocial(props: Props) {
     .slice(0, n)
 
   return (
-    <div className="gpt-feedback flex flex-row px-2 py-2 rounded-[10px] items-center gap-2 justify-evenly">
+    <div className="footer gpt-feedback flex flex-row px-2 py-2 rounded-[10px] items-center gap-2 justify-evenly">
       {socials_shuffled.map((object) => (
         <span key={object.tooltipid} className="leading-none">
           <a

@@ -43,6 +43,7 @@ async function mount(question: string, promptSource: string, siteConfig: SearchE
       promptSource={promptSource}
       arkoseToken={arkoseToken}
       triggerMode={userConfig.triggerMode || 'always'}
+      theme={theme}
     />,
     container,
   )
