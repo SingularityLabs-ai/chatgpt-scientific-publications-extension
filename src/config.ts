@@ -64,7 +64,7 @@ const userConfigWithDefaultValue = {
   language: Language.Auto,
   prompt: Prompt,
   promptOverrides: [] as SitePrompt[],
-  chatgptMode: ChatgptMode.SSE,
+  chatgptMode: ChatgptMode.WSS,
 }
 
 export type UserConfig = typeof userConfigWithDefaultValue
