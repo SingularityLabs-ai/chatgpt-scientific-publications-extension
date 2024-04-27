@@ -1,0 +1,4 @@
+Generiert Einblicke, Vorschläge, Fragen und Referenzen, wenn Sie mithilfe von ChatGPT einen Artikel auf einer Website einer wissenschaftlichen Zeitschrift wie Arxiv direkt aus der Zusammenfassung durchsuchen. Derzeit werden 48 Websites unterstützt. Eine vollständige Liste der unterstützten Websites finden Sie auf unserer Website (Github). Wenn Sie eine andere Website benötigen, können Sie gerne eine Pull-Anfrage senden. Kein ChatGPT Plus-Plan erforderlich.
+=== LEGAL:
+
+RECHTLICHES: Haftungsausschluss: SciGPT ist keine offizielle ChatGPT™-Anwendung. SciGPT ist auch keiner der genannten Zeitschriften angeschlossen. Es handelt sich um eine inoffizielle Erweiterung, die unabhängig von Singularity Labs entwickelt und gepflegt wird und keine Verbindung zu OpenAI hat.

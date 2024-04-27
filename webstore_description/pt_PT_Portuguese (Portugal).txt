@@ -1,0 +1,4 @@
+Gera insights, sugestões, perguntas e referências quando você navega por um artigo em um site de revista científica como o Arxiv diretamente do resumo usando ChatGPT. Atualmente, 48 sites são suportados. Para obter uma lista completa de sites suportados, confira nosso site (github). Sinta-se à vontade para enviar uma solicitação pull se precisar de qualquer outro site. Não é necessário plano ChatGPT Plus.
+=== LEGAL:
+
+LEGAL: Isenção de responsabilidade: SciGPT não é um aplicativo oficial do ChatGPT ™. O SciGPT também não é afiliado a nenhuma das revistas mencionadas. É uma extensão não oficial desenvolvida e mantida de forma independente pelo Singularity Labs e não tem afiliação à OpenAI.

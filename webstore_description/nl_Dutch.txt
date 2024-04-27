@@ -1,0 +1,4 @@
+Genereert inzichten, suggesties, vragen en referenties wanneer u door een artikel op een website van een wetenschappelijk tijdschrift zoals Arxiv bladert, rechtstreeks vanuit de samenvatting met behulp van ChatGPT. Momenteel worden 48 websites ondersteund. Voor een volledige lijst met ondersteunde websites, bekijk onze website (github). Stuur gerust een pull-verzoek als u een andere website nodig heeft. Geen ChatGPT Plus-abonnement vereist.
+=== LEGAL:
+
+JURIDISCH: Disclaimer: SciGPT is geen officiële ChatGPT™-applicatie. SciGPT is ook niet aangesloten bij een van de genoemde tijdschriften. Het is een onofficiële extensie die onafhankelijk is ontwikkeld en onderhouden door Singularity Labs en geen banden heeft met OpenAI.

@@ -1,0 +1,4 @@
+Genera idees, suggeriments, preguntes i referències quan navegueu per un article en un lloc web de revista científica com Arxiv directament des del resum mitjançant ChatGPT. Actualment s'admeten 48 llocs web. Per obtenir la llista completa de llocs web compatibles, consulteu el nostre lloc web (github). No dubteu a enviar una sol·licitud d'extracció si necessiteu qualsevol altre lloc web. No cal cap pla de ChatGPT Plus.
+=== LEGAL:
+
+LEGAL: Exempció de responsabilitat: SciGPT no és una aplicació oficial de ChatGPT™. SciGPT tampoc està afiliat a cap de les revistes esmentades. És una extensió no oficial desenvolupada i mantinguda de manera independent per Singularity Labs i no té cap afiliació a OpenAI.

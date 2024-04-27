@@ -1,0 +1,4 @@
+Genererer indsigt, forslag, spørgsmål og referencer, når du gennemser en artikel på et videnskabeligt tidsskriftswebsted som Arxiv direkte fra abstraktet ved hjælp af ChatGPT. 48 websteder understøttes i øjeblikket. For en komplet liste over understøttede websteder, tjek vores websted (github). Du er velkommen til at sende en pull-anmodning, hvis du har brug for en anden hjemmeside. Der kræves ingen ChatGPT Plus-plan.
+=== LEGAL:
+
+JURIDISK: Ansvarsfraskrivelse: SciGPT er ikke officiel ChatGPT™-applikation. SciGPT er heller ikke tilknyttet nogen af ​​de nævnte tidsskrifter. Det er en uofficiel udvidelse, der er udviklet og vedligeholdt uafhængigt af Singularity Labs og har ingen tilknytning til OpenAI.

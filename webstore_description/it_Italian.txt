@@ -1,0 +1,4 @@
+Genera approfondimenti, suggerimenti, domande e riferimenti quando sfogli un articolo sul sito web di una rivista scientifica come Arxiv direttamente dall'abstract utilizzando ChatGPT. Attualmente sono supportati 48 siti Web. Per l'elenco completo dei siti Web supportati, consulta il nostro sito Web (github). Sentiti libero di inviare una richiesta pull se hai bisogno di qualsiasi altro sito web. Non è richiesto alcun piano ChatGPT Plus.
+=== LEGAL:
+
+LEGALE: Dichiarazione di non responsabilità: SciGPT non è un'applicazione ChatGPT™ ufficiale. Né SciGPT è affiliato a nessuna delle riviste menzionate. È un'estensione non ufficiale sviluppata e gestita in modo indipendente da Singularity Labs e non ha alcuna affiliazione con OpenAI.

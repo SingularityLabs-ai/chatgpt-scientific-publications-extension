@@ -1,0 +1,4 @@
+Generuje postřehy, návrhy, otázky a reference při procházení článku na webu vědeckého časopisu, jako je Arxiv, přímo z abstraktu pomocí ChatGPT. Aktuálně je podporováno 48 webových stránek. Úplný seznam podporovaných webů najdete na našem webu (github). Neváhejte a pošlete žádost o stažení, pokud potřebujete jakýkoli jiný web. Není vyžadován žádný plán ChatGPT Plus.
+=== LEGAL:
+
+PRÁVNÍ: Zřeknutí se odpovědnosti: SciGPT není oficiální aplikace ChatGPT™. SciGPT není ani přidružen k žádnému ze zmíněných časopisů. Jedná se o neoficiální rozšíření, které je vyvíjeno a spravováno nezávisle společností Singularity Labs a nemá žádnou spojitost s OpenAI.

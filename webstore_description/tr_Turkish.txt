@@ -1,0 +1,4 @@
+ChatGPT'yi kullanarak Arxiv gibi bilimsel bir dergi web sitesindeki bir makaleye doğrudan özetten göz attığınızda içgörüler, öneriler, sorular ve referanslar oluşturur. Şu anda 48 web sitesi desteklenmektedir. Desteklenen web sitelerinin tam listesi için web sitemize (github) göz atın. Başka bir web sitesine ihtiyacınız varsa çekme isteği göndermekten çekinmeyin. ChatGPT Plus planına gerek yok.
+=== LEGAL:
+
+YASAL: Yasal Uyarı: SciGPT resmi ChatGPT™ uygulaması değildir. SciGPT'nin adı geçen dergilerin hiçbirine bağlantısı yoktur. Singularity Labs tarafından bağımsız olarak geliştirilen ve bakımı yapılan ve OpenAI ile hiçbir bağlantısı olmayan resmi olmayan bir uzantıdır.

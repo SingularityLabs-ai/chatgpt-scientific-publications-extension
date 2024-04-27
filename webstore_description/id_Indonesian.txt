@@ -1,0 +1,4 @@
+Menghasilkan wawasan, saran, pertanyaan, dan referensi saat Anda menelusuri makalah di situs jurnal ilmiah seperti Arxiv langsung dari abstrak menggunakan ChatGPT. 48 situs web saat ini didukung. Untuk daftar lengkap situs web yang didukung, lihat situs web kami (github). Jangan ragu untuk mengirim permintaan tarik jika Anda memerlukan situs web lain. Tidak diperlukan paket ChatGPT Plus.
+=== LEGAL:
+
+HUKUM: Penafian: SciGPT bukan aplikasi resmi ChatGPT™. SciGPT juga tidak berafiliasi dengan jurnal mana pun yang disebutkan. Ini adalah ekstensi tidak resmi yang dikembangkan dan dikelola secara independen oleh Singularity Labs dan tidak berafiliasi dengan OpenAI.

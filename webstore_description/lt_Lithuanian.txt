@@ -1,0 +1,4 @@
+Generuoja įžvalgas, pasiūlymus, klausimus ir nuorodas, kai naršote straipsnį mokslinio žurnalo svetainėje, pvz., Arxiv, tiesiogiai iš santraukos, naudodami ChatGPT. Šiuo metu palaikomos 48 svetainės. Norėdami gauti visą palaikomų svetainių sąrašą, apsilankykite mūsų svetainėje (github). Nedvejodami atsiųskite ištraukimo užklausą, jei jums reikia kitos svetainės. Nereikia „ChatGPT Plus“ plano.
+=== LEGAL:
+
+TEISINĖ: Atsisakymas: SciGPT nėra oficiali „ChatGPT™“ programa. SciGPT taip pat nėra susijęs su jokiu paminėtu žurnalu. Tai neoficialus plėtinys, kurį savarankiškai sukūrė ir prižiūri Singularity Labs ir kuris nėra susijęs su OpenAI.

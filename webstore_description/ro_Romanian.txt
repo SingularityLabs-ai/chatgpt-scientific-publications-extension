@@ -1,0 +1,4 @@
+Generează perspective, sugestii, întrebări și referințe atunci când răsfoiți o lucrare pe un site web de jurnal științific precum Arxiv direct din rezumat folosind ChatGPT. În prezent sunt acceptate 48 de site-uri web. Pentru lista completă a site-urilor web acceptate, consultați site-ul nostru (github). Simțiți-vă liber să trimiteți o cerere de extragere dacă aveți nevoie de orice alt site web. Nu este necesar un plan ChatGPT Plus.
+=== LEGAL:
+
+LEGAL: Disclaimer: SciGPT nu este o aplicație oficială ChatGPT™. Nici SciGPT nu este afiliat la niciuna dintre revistele menționate. Este o extensie neoficială care este dezvoltată și întreținută independent de Singularity Labs și nu are nicio afiliere la OpenAI.

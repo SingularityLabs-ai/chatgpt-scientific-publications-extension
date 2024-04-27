@@ -1,0 +1,4 @@
+Generuje spostrzeżenia, sugestie, pytania i odniesienia podczas przeglądania artykułu w witrynie czasopisma naukowego, takiego jak Arxiv, bezpośrednio na podstawie streszczenia za pomocą ChatGPT. Obecnie obsługiwanych jest 48 witryn internetowych. Pełna lista obsługiwanych stron internetowych znajduje się na naszej stronie internetowej (github). Jeśli potrzebujesz innej witryny internetowej, możesz wysłać żądanie ściągnięcia. Nie jest wymagany plan ChatGPT Plus.
+=== LEGAL:
+
+PRAWNE: Zastrzeżenie: SciGPT nie jest oficjalną aplikacją ChatGPT™. SciGPT nie jest także powiązane z żadnym z wymienionych czasopism. Jest to nieoficjalne rozszerzenie opracowane i utrzymywane niezależnie przez Singularity Labs i nie ma powiązań z OpenAI.

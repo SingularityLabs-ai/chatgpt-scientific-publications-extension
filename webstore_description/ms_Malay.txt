@@ -1,0 +1,4 @@
+Menjana pandangan, cadangan, soalan dan rujukan apabila anda menyemak imbas kertas di tapak web jurnal saintifik seperti Arxiv terus daripada abstrak menggunakan ChatGPT. 48 tapak web sedang disokong. Untuk senarai penuh tapak web yang disokong, lihat laman web kami (github). Jangan ragu untuk menghantar permintaan tarik jika anda memerlukan mana-mana tapak web lain. Tiada pelan ChatGPT Plus diperlukan.
+=== LEGAL:
+
+UNDANG-UNDANG: Penafian: SciGPT bukan aplikasi ChatGPT™ rasmi. SciGPT juga tidak bergabung dengan mana-mana jurnal yang disebutkan. Ia adalah sambungan tidak rasmi yang dibangunkan dan diselenggara secara bebas oleh Singularity Labs dan tidak mempunyai kaitan dengan OpenAI.

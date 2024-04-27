@@ -1,0 +1,4 @@
+Luo oivalluksia, ehdotuksia, kysymyksiä ja viittauksia, kun selaat artikkelia tieteellisen aikakauslehtisivustolla, kuten Arxiv, suoraan abstraktista ChatGPT:n avulla. Tällä hetkellä tuetaan 48 verkkosivustoa. Täydellinen luettelo tuetuista verkkosivustoista on verkkosivustoltamme (github). Voit vapaasti lähettää vetopyynnön, jos tarvitset jotain muuta verkkosivustoa. ChatGPT Plus -sopimusta ei vaadita.
+=== LEGAL:
+
+LAKI: Vastuuvapauslauseke: SciGPT ei ole virallinen ChatGPT™-sovellus. SciGPT ei myöskään ole sidoksissa mihinkään mainittuun aikakauslehteen. Se on epävirallinen laajennus, jonka Singularity Labs on kehittänyt ja ylläpitänyt itsenäisesti ja jolla ei ole yhteyttä OpenAI:han.

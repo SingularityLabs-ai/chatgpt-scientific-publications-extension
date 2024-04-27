@@ -1,0 +1,4 @@
+Tạo thông tin chi tiết, đề xuất, câu hỏi và tài liệu tham khảo khi bạn duyệt một bài báo trên trang web tạp chí khoa học như Arxiv trực tiếp từ bản tóm tắt bằng ChatGPT. 48 trang web hiện đang được hỗ trợ. Để biết danh sách đầy đủ các trang web được hỗ trợ, hãy xem trang web của chúng tôi (github). Vui lòng gửi yêu cầu kéo nếu bạn cần cho bất kỳ trang web nào khác. Không cần gói ChatGPT Plus.
+=== LEGAL:
+
+PHÁP LÝ: Tuyên bố từ chối trách nhiệm: SciGPT không phải là ứng dụng ChatGPT™ chính thức. SciGPT cũng không liên kết với bất kỳ tạp chí nào được đề cập. Đây là tiện ích mở rộng không chính thức được phát triển và duy trì độc lập bởi Singularity Labs và không có liên kết với OpenAI.

@@ -1,0 +1,4 @@
+Genera ideas, sugerencias, preguntas y referencias cuando navega por un artículo en el sitio web de una revista científica como Arxiv directamente desde el resumen utilizando ChatGPT. Actualmente se admiten 48 sitios web. Para obtener una lista completa de sitios web compatibles, visite nuestro sitio web (github). No dude en enviar una solicitud de extracción si necesita cualquier otro sitio web. No se requiere un plan ChatGPT Plus.
+=== LEGAL:
+
+LEGAL: Descargo de responsabilidad: SciGPT no es una aplicación oficial de ChatGPT™. SciGPT tampoco está afiliada a ninguna de las revistas mencionadas. Es una extensión no oficial desarrollada y mantenida de forma independiente por Singularity Labs y no tiene afiliación con OpenAI.

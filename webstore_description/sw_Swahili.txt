@@ -1,0 +1,4 @@
+Huzalisha maarifa, mapendekezo, maswali na marejeleo unapovinjari karatasi kwenye tovuti ya jarida la kisayansi kama vile Arxiv moja kwa moja kutoka kwa muhtasari kwa kutumia ChatGPT. Tovuti 48 zinatumika kwa sasa. Kwa orodha kamili ya tovuti zinazoungwa mkono angalia tovuti yetu(github). Jisikie huru kutuma ombi la kuvuta ikiwa unahitaji tovuti nyingine yoyote. Hakuna mpango wa ChatGPT Plus unaohitajika.
+=== LEGAL:
+
+KISHERIA: Kanusho: SciGPT sio programu rasmi ya ChatGPT™. Wala SciGPT haihusiani na majarida yoyote yaliyotajwa. Ni kiendelezi kisicho rasmi ambacho hutengenezwa na kudumishwa kwa kujitegemea na Maabara ya Umoja na haina uhusiano na OpenAI.

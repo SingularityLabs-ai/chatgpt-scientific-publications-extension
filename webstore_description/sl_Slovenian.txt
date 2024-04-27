@@ -1,0 +1,4 @@
+Ustvari vpoglede, predloge, vprašanja in reference, ko brskate po članku na spletni strani znanstvene revije, kot je Arxiv, neposredno iz povzetka z uporabo ChatGPT. Trenutno je podprtih 48 spletnih mest. Za celoten seznam podprtih spletnih mest si oglejte našo spletno stran (github). Če potrebujete katero koli drugo spletno mesto, lahko pošljete zahtevo za vleko. Načrt ChatGPT Plus ni potreben.
+=== LEGAL:
+
+PRAVNO: Zavrnitev odgovornosti: SciGPT ni uradna aplikacija ChatGPT™. Prav tako SciGPT ni povezan z nobeno od omenjenih revij. To je neuradna razširitev, ki jo neodvisno razvija in vzdržuje Singularity Labs in ni povezana z OpenAI.

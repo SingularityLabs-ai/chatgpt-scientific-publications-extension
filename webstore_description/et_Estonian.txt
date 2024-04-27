@@ -1,0 +1,4 @@
+Loob teadmisi, soovitusi, küsimusi ja viiteid, kui sirvite artiklit teadusajakirjade veebisaidil, nagu Arxiv, otse abstraktist, kasutades ChatGPT-d. Praegu toetatakse 48 veebisaiti. Toetatud veebisaitide täieliku loendi leiate meie veebisaidilt (github). Kui vajate mõnda muud veebisaiti, saatke julgelt tõmbamistaotlus. ChatGPT Plus paketti pole vaja.
+=== LEGAL:
+
+JURIIDILINE: lahtiütlemine: SciGPT ei ole ametlik ChatGPT™ rakendus. Samuti ei ole SciGPT seotud ühegi mainitud ajakirjaga. See on mitteametlik laiendus, mida arendab ja hooldab sõltumatult Singularity Labs ja mis ei ole OpenAI-ga seotud.

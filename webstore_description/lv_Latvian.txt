@@ -1,0 +1,4 @@
+Ģenerē ieskatus, ieteikumus, jautājumus un atsauces, kad pārlūkojat rakstu zinātniskā žurnāla vietnē, piemēram, Arxiv, tieši no abstrakta, izmantojot ChatGPT. Pašlaik tiek atbalstītas 48 vietnes. Pilnu atbalstīto vietņu sarakstu skatiet mūsu vietnē (github). Jūtieties brīvi nosūtīt izvilkšanas pieprasījumu, ja jums nepieciešama kāda cita vietne. Nav nepieciešams ChatGPT Plus plāns.
+=== LEGAL:
+
+JURIDISKAIS: Atruna: SciGPT nav oficiāla ChatGPT™ lietojumprogramma. Tāpat SciGPT nav saistīts ne ar vienu no minētajiem žurnāliem. Tas ir neoficiāls paplašinājums, ko neatkarīgi izstrādā un uztur Singularity Labs, un tas nav saistīts ar OpenAI.
