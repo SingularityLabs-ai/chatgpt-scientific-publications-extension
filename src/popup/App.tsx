@@ -55,14 +55,14 @@ function App() {
           )
         }
         if (accessTokenQuery.data) {
-          return <iframe src="https://chat.openai.com" className="grow border-none" />
+          return <iframe src="https://chatgpt.com" className="grow border-none" />
         }
         return (
           <div className="grow flex flex-col justify-center">
             <p className="text-base px-2 text-center">
               Please login and pass Cloudflare check at{' '}
-              <a href="https://chat.openai.com" target="_blank" rel="noreferrer">
-                chat.openai.com
+              <a href="https://chatgpt.com" target="_blank" rel="noreferrer">
+                chatgpt.com
               </a>
             </p>
           </div>

@@ -10,7 +10,10 @@
     "48": "logo.png",
     "128": "logo.png"
   },
-  "host_permissions": ["https://*.openai.com/"],
+  "host_permissions": [
+    "https://*.openai.com/",
+    "https://*.chatgpt.com/"
+  ],
   "permissions": [ "storage" ],
   "background": {
     "service_worker": "background.js"
