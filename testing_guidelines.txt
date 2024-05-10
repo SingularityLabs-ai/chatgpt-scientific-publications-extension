@@ -1,1 +1,1 @@
-you must be logged into chat.openai.com as well as the each of the sites that you are testing on
+you must be logged into chatgpt.com as well as the each of the sites that you are testing on
